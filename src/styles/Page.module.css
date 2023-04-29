@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    padding: 30px 50px;
+    overflow-y: scroll;
+    /* scroll-snap-type: y proximity; */
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aside {
+    width: 50vw;
+    flex-shrink: 0;
+  }

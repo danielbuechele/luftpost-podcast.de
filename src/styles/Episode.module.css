@@ -1,0 +1,35 @@
+.episode {
+    padding-top: 50px;
+    scroll-snap-align: start;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.flag {
+    margin-right: 16px;
+    border-radius: 999em;
+}
+
+.title h1 {
+    font-family: --futura-font;
+    text-transform: uppercase;
+}
+
+.title span {
+    color: #888;
+}
+
+
+.player {
+    width: 100%; 
+    overflow: hidden;
+    border-radius: 10px;
+    transform: translateZ(0px);
+    animation: 2s 6 loading-indicator;
+    background-color: rgb(228, 228, 228);
+    margin-top: 20px;
+}
