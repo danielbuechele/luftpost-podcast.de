@@ -2,6 +2,8 @@
   --foreground-rgb: 51, 51, 51;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary: #EC7994;
+  --secondary: #135486;
 }
 
 * {
@@ -33,7 +35,23 @@ a {
 }
 
 a:hover, a:focus {
-  color: #EC7994;
+  color: var(--primary);
+}
+
+.mapboxgl-marker mapboxgl-marker-anchor-bottom {
+  content: "";
+  position: relative;
+}
+
+.mapboxgl-marker mapboxgl-marker-anchor-bottom::after {
+  position: absolute;
+  left:0;
+  right: 0;
+  display: block;
+  background: red;
+  background-image: url('/shadow.png');
+  width: 26px;
+  height: 17px;
 }
 
 @media (prefers-color-scheme: dark) {

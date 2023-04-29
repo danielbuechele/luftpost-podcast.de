@@ -1,17 +1,20 @@
 import Head from 'next/head';
 import {GetStaticProps, GetStaticPaths} from 'next';
-import {Episode, allEpisodes} from 'contentlayer/generated';
+import {Episode as EpisodeT, allEpisodes} from 'contentlayer/generated';
+import Episode from '@/components/Episode';
+import Page from '@/components/Page';
+import Map from '@/components/Map';
 
-type Props = {episode: Episode};
+type Props = {episode: EpisodeT};
 
-export default function Episode(props: Props) {
+export default function EpisodePage(props: Props) {
   return (
-    <>
+    <Page aside={<Map selectedEpisodeId={props.episode._id} />}>
       <Head>
         <title>{props.episode.title + ' - Luftpost Podcast'}</title>
       </Head>
       <Episode episode={props.episode} />
-    </>
+    </Page>
   );
 }
 
