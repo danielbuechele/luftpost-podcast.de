@@ -1,10 +1,16 @@
 import {Episode as EpisodeT, allEpisodes} from 'contentlayer/generated';
 
-import {Map as MapGL, Marker, ViewStateChangeEvent} from 'react-map-gl';
+import {
+  LngLatLike,
+  Map as MapGL,
+  MapRef,
+  Marker,
+  ViewStateChangeEvent,
+} from 'react-map-gl';
 import Image from 'next/image';
 import marker from '@/../public/marker.png';
 import Supercluster from 'supercluster';
-import {useCallback, useMemo, useState} from 'react';
+import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import styles from '@/styles/Map.module.css';
 import {useRouter} from 'next/router';
 import React from 'react';
@@ -20,9 +26,10 @@ const initialViewState = {
   latitude: 25,
   zoom: 2,
 };
-const bbox: GeoJSON.BBox = [-180, -85, 180, 85];
+const bbox: GeoJSON.BBox = [-180, -90, 180, 90];
 
 function Map(props: Props) {
+  const mapRef = useRef<MapRef>(null);
   const sc = useMemo(
     () =>
       new Supercluster<EpisodeT>({
@@ -55,16 +62,30 @@ function Map(props: Props) {
     [sc],
   );
 
-  const {push} = useRouter();
+  useEffect(() => {
+    const episode = allEpisodes.find((e) => e._id === props.selectedEpisodeId);
 
-  console.log('rerender');
+    mapRef.current?.flyTo({
+      center: episode
+        ? [episode.longitude, episode.latitude]
+        : [initialViewState.longitude, initialViewState.latitude],
+      zoom:
+        episode == null
+          ? initialViewState.zoom
+          : Math.max(mapRef.current?.getZoom(), initialViewState.zoom),
+    });
+  }, [props.selectedEpisodeId]);
+
+  const {push} = useRouter();
 
   return (
     <MapGL
+      ref={mapRef}
       mapboxAccessToken="pk.eyJ1IjoiZGFuaWVsYnVlY2hlbGUiLCJhIjoiY2xkMjZoMmZiMDVvcjN1bWxmNHNwYXgweSJ9.tLy3xz0r55-30Vtqg3V6NA"
       initialViewState={initialViewState}
       mapStyle="mapbox://styles/danielbuechele/cjqcdcl08ejiv2sn1y35nc9du"
       onZoom={onZoom}
+      reuseMaps={true}
     >
       {points.map((p) =>
         p.properties.cluster ? (
@@ -78,6 +99,10 @@ function Map(props: Props) {
                 const zoom = sc.getClusterExpansionZoom(
                   p.properties.cluster_id,
                 );
+                mapRef.current?.flyTo({
+                  center: p.geometry.coordinates as LngLatLike,
+                  zoom,
+                });
               }
             }}
           >
@@ -120,4 +145,4 @@ function Map(props: Props) {
   );
 }
 
-export default React.memo(Map, () => true);
+export default React.memo(Map);

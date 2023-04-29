@@ -2,9 +2,9 @@ import {Episode} from 'contentlayer/generated';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/Episode.module.css';
-import {Nunito_Sans, Fira_Sans} from 'next/font/google';
+import {Fira_Sans} from 'next/font/google';
+import ReactMarkdown from 'react-markdown';
 
-const nunito = Nunito_Sans({weight: '700', subsets: ['latin']});
 const fira = Fira_Sans({weight: '400', subsets: ['latin']});
 
 type Props = {episode: Episode};
@@ -22,10 +22,14 @@ export default function Episode(props: Props) {
         />
         <hgroup>
           <Link href={`${props.episode._raw.flattenedPath}`}>
-            <h1 className={nunito.className}>{props.episode.title}</h1>
+            <h1>{props.episode.title}</h1>
           </Link>
           <span className={fira.className}>
-            mit {props.episode.guest} vom{' '}
+            mit{' '}
+            <ReactMarkdown allowedElements={['a']} unwrapDisallowed>
+              {props.episode.guest}
+            </ReactMarkdown>{' '}
+            vom{' '}
             <time dateTime={props.episode.publishedAt}>
               {new Date(props.episode.publishedAt).toLocaleDateString('de-DE', {
                 day: 'numeric',
@@ -36,7 +40,7 @@ export default function Episode(props: Props) {
           </span>
         </hgroup>
       </div>
-      {props.episode.body.raw}
+      <ReactMarkdown>{props.episode.body.raw}</ReactMarkdown>
       <iframe
         id="embedPlayer"
         src="https://embed.podcasts.apple.com/de/podcast/marokko/id409553739?i=1000602855910&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"

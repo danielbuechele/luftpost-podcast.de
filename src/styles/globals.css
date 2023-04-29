@@ -38,20 +38,21 @@ a:hover, a:focus {
   color: var(--primary);
 }
 
-.mapboxgl-marker mapboxgl-marker-anchor-bottom {
-  content: "";
-  position: relative;
+.mapboxgl-marker-anchor-bottom {
+  z-index: 2;
 }
 
-.mapboxgl-marker mapboxgl-marker-anchor-bottom::after {
+.mapboxgl-marker-anchor-bottom::before {
   position: absolute;
-  left:0;
-  right: 0;
+  content: "";
+  left: 13px;
+  bottom: 5px;
   display: block;
-  background: red;
   background-image: url('/shadow.png');
+  background-size: 100%;
   width: 26px;
   height: 17px;
+  z-index: -1;
 }
 
 @media (prefers-color-scheme: dark) {

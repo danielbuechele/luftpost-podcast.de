@@ -20,6 +20,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    font-family: var(--futura-font);
+    text-transform: uppercase;
+    font-size: 1.1em;
+    line-height: 160%;
 }
 
 .aside {

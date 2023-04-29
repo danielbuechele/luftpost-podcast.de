@@ -1,6 +1,7 @@
 import {parseStringPromise} from 'xml2js';
 import fs from 'fs/promises';
 import {join} from 'path';
+import {NodeHtmlMarkdown} from 'node-html-markdown';
 
 const file =
   '/Users/danielbuechele/Downloads/luftpostpodcast.WordPress.2023-04-25.xml';
@@ -41,7 +42,7 @@ type WPItem = {
 
   const items: WPItem[] = data.rss.channel.item;
 
-  console.log(items.at(0)?.['wp:postmeta']);
+  console.log(items.at(0));
 
   for (const i of items) {
     const [latitude, longitude] =
@@ -55,9 +56,9 @@ type WPItem = {
     await fs.writeFile(
       join(__dirname, '..', 'episodes', `${i['wp:post_id']}.md`),
       `---
-title: ${i.title}
-publishedAt: 2023-04-24
-guest: ${guest}
+title: ${i.title.replace(/&amp;/g, '&')}
+publishedAt: ${i.pubDate}
+guest: ${NodeHtmlMarkdown.translate(guest ?? '')}
 countryCode: ${getMetaField(i, 'countrycode')}
 latitude: ${latitude}
 longitude: ${longitude}
@@ -67,7 +68,7 @@ mediaUrl: ${mediaUrl}
 mimeType: ${mimeType}
 ---
 
-2013 gab es schonmal eine Episode zu Istanbul und 2014 habe ich auch schonmal mit Moritz gesprochen. Damals über die Malediven. Moritz lebt mittlerweile in Istanbul und wir dachten es wäre ein guter Zeitpunkt um seine Perspektive zu bekommen, denn diese ist auch immer etwas anders als die touristische Wahrnehmung eines Landes. Moritz lebt und arbeitet auf der asiatischen Seite der Metropole, erzählt aber auch über seine Reisen durch die Türkei und versucht mir sogar etwas die Sprache bei zubringen.
+${NodeHtmlMarkdown.translate(i['content:encoded'])}
 `,
     );
   }

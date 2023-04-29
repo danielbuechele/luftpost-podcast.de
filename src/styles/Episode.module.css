@@ -15,7 +15,7 @@
 }
 
 .title h1 {
-    font-family: --futura-font;
+    font-family: var(--futura-font);
     text-transform: uppercase;
 }
 

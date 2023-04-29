@@ -15,13 +15,13 @@ export default function Page({children, aside}: {children: any; aside: any}) {
           <nav className={styles.nav}>
             <ul>
               <li>
-                <Link href="/">Mitmachen</Link>
+                <Link href="/mitmachen">Mitmachen</Link>
               </li>
               <li>
-                <Link href="/">Informationen</Link>
+                <Link href="/about">Informationen</Link>
               </li>
               <li>
-                <Link href="/">Abonnieren</Link>
+                <Link href="/abonnieren">Abonnieren</Link>
               </li>
             </ul>
           </nav>
