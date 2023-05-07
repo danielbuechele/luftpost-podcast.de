@@ -33,3 +33,16 @@
     background-color: rgb(228, 228, 228);
     margin-top: 20px;
 }
+
+.body a {
+    color: var(--primary);
+}
+
+
+.body a:hover {
+    text-decoration: underline;
+}
+
+.body ul, .body ol {
+    margin-left: 26px;
+}

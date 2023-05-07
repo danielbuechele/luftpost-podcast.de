@@ -2,7 +2,13 @@ import {defineDocumentType, makeSource} from 'contentlayer/source-files';
 
 export const Episode = defineDocumentType(() => ({
   name: 'Episode',
-  filePathPattern: `**/*.md`,
+  filePathPattern: `episodes/*.md`,
+  computedFields: {
+    slug: {
+      type: 'string',
+      resolve: ({_raw}) => _raw.sourceFileName.replace(/\.md$/, ''),
+    },
+  },
   fields: {
     title: {
       type: 'string',
@@ -13,6 +19,11 @@ export const Episode = defineDocumentType(() => ({
       type: 'date',
       description: 'The publish date of the episode',
       required: true,
+    },
+    guid: {
+      type: 'string',
+      description: 'The GUID used in feed. If not used, the slug is used',
+      required: false,
     },
     guest: {
       type: 'string',
@@ -56,15 +67,32 @@ export const Episode = defineDocumentType(() => ({
       required: false,
     },
   },
-  //   computedFields: {
-  //     url: {
-  //       type: "string",
-  //       resolve: (post) => `/episodes/${post._raw.flattenedPath}`,
-  //     },
-  //   },
+}));
+
+export const Page = defineDocumentType(() => ({
+  name: 'Page',
+  filePathPattern: `pages/*.md`,
+  computedFields: {
+    slug: {
+      type: 'string',
+      resolve: ({_raw}) => _raw.sourceFileName.replace(/\.md$/, ''),
+    },
+  },
+  fields: {
+    title: {
+      type: 'string',
+      description: 'The title of the episode',
+      required: true,
+    },
+    image: {
+      type: 'string',
+      description: 'URL of the image shown on the side of the page',
+      required: true,
+    },
+  },
 }));
 
 export default makeSource({
-  contentDirPath: 'episodes',
-  documentTypes: [Episode],
+  contentDirPath: 'content',
+  documentTypes: [Episode, Page],
 });

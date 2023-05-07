@@ -21,7 +21,7 @@ export default function Episode(props: Props) {
           alt={`Flagge von ${props.episode.countryCode}`}
         />
         <hgroup>
-          <Link href={`${props.episode._raw.flattenedPath}`}>
+          <Link href={`${props.episode.slug}`}>
             <h1>{props.episode.title}</h1>
           </Link>
           <span className={fira.className}>
@@ -40,7 +40,9 @@ export default function Episode(props: Props) {
           </span>
         </hgroup>
       </div>
-      <ReactMarkdown>{props.episode.body.raw}</ReactMarkdown>
+      <ReactMarkdown className={styles.body}>
+        {props.episode.body.raw}
+      </ReactMarkdown>
       <iframe
         id="embedPlayer"
         src="https://embed.podcasts.apple.com/de/podcast/marokko/id409553739?i=1000602855910&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"

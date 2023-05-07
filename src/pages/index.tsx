@@ -1,3 +1,3 @@
-import EpisodePage, {getStaticProps as gsp} from './[episode]';
-export default EpisodePage;
+import ContentPage, {getStaticProps as gsp} from './[slug]';
+export default ContentPage;
 export const getStaticProps = gsp;
