@@ -88,7 +88,11 @@ export const getStaticProps: GetStaticProps<Props, {slug: string}> = async (
   } else {
     return {
       props: {
-        allEpisodes,
+        allEpisodes: allEpisodes.sort(
+          (a, b) =>
+            new Date(b.publishedAt).getTime() -
+            new Date(a.publishedAt).getTime(),
+        ),
         contentType: 'Home',
       },
     };

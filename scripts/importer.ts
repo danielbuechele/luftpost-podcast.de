@@ -5,7 +5,7 @@ import {NodeHtmlMarkdown} from 'node-html-markdown';
 var phpUnserialize = require('phpunserialize');
 
 const file =
-  '/Users/danielbuechele/Downloads/luftpostpodcast.WordPress.2023-04-30.xml';
+  '/Users/danielbuechele/Downloads/luftpostpodcast.WordPress.2023-05-07.xml';
 
 type WPItem = {
   title: string;
@@ -90,7 +90,7 @@ type WPItem = {
 
     const slug = new URL(i.link).pathname.replaceAll('/', '');
     await fs.writeFile(
-      join(__dirname, '..', 'episodes', `${slug}.md`),
+      join(__dirname, '..', 'content', 'episodes', `${slug}.md`),
       `---
 ${Array.from(frontMatter.entries())
   .map(([k, v]) => `${k}: ${v}`)
