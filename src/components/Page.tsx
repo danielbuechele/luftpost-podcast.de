@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '@/styles/Page.module.css';
 import Image from 'next/image';
 import logo from '@/../public/logo-2.png';
+import {usePathname} from 'next/navigation';
 
 const fira = Fira_Sans({weight: '300', subsets: ['latin']});
 
@@ -14,18 +15,13 @@ export default function Page({children, aside}: {children: any; aside: any}) {
         <header className={styles.header}>
           <nav className={styles.nav}>
             <ul>
-              <li>
-                <Link href="/mitmachen">Mitmachen</Link>
-              </li>
-              <li>
-                <Link href="/about">Informationen</Link>
-              </li>
-              <li>
-                <Link href="/abonnieren">Abonnieren</Link>
-              </li>
+              <NavLink href="/alle-episoden">Alle Episoden</NavLink>
+              <NavLink href="/mitmachen">Mitmachen</NavLink>
+              <NavLink href="/about">Informationen</NavLink>
+              <NavLink href="/abonnieren">Abonnieren</NavLink>
             </ul>
           </nav>
-          <Link href="/">
+          <Link href="/" className={styles.logo}>
             <Image
               src={logo}
               width={158}
@@ -37,5 +33,19 @@ export default function Page({children, aside}: {children: any; aside: any}) {
         {children}
       </main>
     </div>
+  );
+}
+
+function NavLink(props: {href: string; children: string}) {
+  const pathname = usePathname();
+  return (
+    <li>
+      <Link
+        className={pathname === props.href ? styles.activeLink : ''}
+        href={props.href}
+      >
+        {props.children}
+      </Link>
+    </li>
   );
 }

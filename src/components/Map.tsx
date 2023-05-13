@@ -120,7 +120,7 @@ function Map(props: Props) {
             anchor="bottom"
             onClick={(e) => {
               if (!p.properties.cluster) {
-                push(p.properties._raw.flattenedPath);
+                push(p.properties.slug);
               }
             }}
           >

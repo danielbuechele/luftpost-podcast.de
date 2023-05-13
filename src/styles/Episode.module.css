@@ -1,55 +1,50 @@
 .episode {
-    padding-top: 50px;
-    scroll-snap-align: start;
+  margin-bottom: 50px;
+  scroll-snap-align: start;
 }
 
 .title {
-    display: flex;
-    margin-bottom: 16px;
-    align-items: center;
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
 }
 
 .flag {
-    margin-right: 16px;
-    border-radius: 999em;
+  margin-right: 16px;
 }
 
 .title h1 {
-    font-family: var(--futura-font);
-    text-transform: uppercase;
+  font-family: var(--futura);
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .title span {
-    color: #888;
+  color: #888;
+  font-family: var(--fira-400);
 }
 
-
-.player {
-    width: 100%; 
-    overflow: hidden;
-    border-radius: 10px;
-    transform: translateZ(0px);
-    animation: 2s 6 loading-indicator;
-    background-color: rgb(228, 228, 228);
-    margin-top: 20px;
+.bodyTruncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.body {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+.meta a,
+.title span a {
+  color: var(--primary);
 }
 
-.body a {
-    color: var(--primary);
+.meta a:hover,
+.title span a:hover {
+  text-decoration: underline;
 }
 
-
-.body a:hover {
-    text-decoration: underline;
-}
-
-.body ul, .body ol {
-    margin-left: 26px;
+.meta {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #888;
+  font-family: var(--fira-400);
+  margin-top: 8px;
 }

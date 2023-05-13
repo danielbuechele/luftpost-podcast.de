@@ -1,0 +1,32 @@
+.body a {
+  color: var(--primary);
+}
+
+.body a:hover {
+  text-decoration: underline;
+}
+
+.body p {
+  margin-bottom: 12px;
+}
+
+.body h1,
+.body h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-weight: normal;
+  font-family: var(--futura);
+  text-transform: uppercase;
+}
+
+.body ul,
+.body ol {
+  margin-left: 26px;
+}
+
+.body pre {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f8fa;
+  margin-bottom: 12px;
+}

@@ -1,44 +1,50 @@
-import {allEpisodes} from '../.contentlayer/generated';
+import allEpisodes from '../.contentlayer/generated/Episode/_index.json';
 import RSS from 'rss';
 import fs from 'fs/promises';
 import {join} from 'path';
+import {secondsToTime} from '../src/utils/time';
 
 (async () => {
-  const desc =
-    'Luftpost bringt in unregelmäßigen Abständen Interviews mit Leuten, die spannende Orte dieser Welt besucht haben. Gemeinsam sprechen wir über Kultur, Leben, Sehenswürdigkeiten und mehr Dinge, die es auf einer Reise dort zu erkunden gilt.';
+  const sortEpisodes = allEpisodes.sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+  );
+
+  const cover = 'https://luftpost-podcast.de/cover.png';
+  const db = 'Daniel Büchele';
 
   const feed = new RSS({
     title: 'Luftpost Podcast',
-    description: 'description',
+    description:
+      'Luftpost bringt in unregelmäßigen Abständen Interviews mit Leuten, die spannende Orte dieser Welt besucht haben. Gemeinsam sprechen wir über Kultur, Leben, Sehenswürdigkeiten und mehr Dinge, die es auf einer Reise dort zu erkunden gilt.',
     feed_url: 'https://luftpost-podcast.de/feed/podcast',
     site_url: 'https://luftpost-podcast.de',
-    image_url: 'https://luftpost-podcast.de/cover.png',
-    webMaster: 'Daniel Büchele',
-    copyright: '2013 Dylan Greene',
+    image_url: cover,
+    webMaster: db,
+    copyright: `${new Date().getFullYear()} Daniel Büchele`,
     language: 'de-DE',
-    categories: ['Category 1', 'Category 2', 'Category 3'],
-    pubDate: 'May 20, 2012 04:00:00 GMT',
-    managingEditor: 'Daniel Büchele',
+    pubDate: sortEpisodes.at(0)?.publishedAt,
+    managingEditor: db,
     ttl: 60,
     custom_namespaces: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
     },
+    // @ts-ignore
+    custom_namespaces: {spotify: 'http://www.spotify.com/ns/rss'},
     custom_elements: [
-      {'itunes:subtitle': desc},
-      {'itunes:author': 'Daniel Büchele'},
-      {
-        'itunes:summary': desc,
-      },
+      {'spotify:countryOfOrigin': 'de at ch'},
+      {'itunes:author': db},
+      {'itunes:explicit': 'clean'},
       {
         'itunes:owner': [
-          {'itunes:name': 'Daniel Büchele'},
+          {'itunes:name': db},
           {'itunes:email': 'daniel@buechele.cc'},
         ],
       },
       {
         'itunes:image': {
           _attr: {
-            href: 'https://luftpost-podcast.de/cover.png',
+            href: cover,
           },
         },
       },
@@ -61,35 +67,37 @@ import {join} from 'path';
     ],
   });
 
-  for (const i of allEpisodes) {
+  for (const i of sortEpisodes) {
+    console.log(i.byteSize);
     feed.item({
-      title: i.title,
-      description: 'use this for the content. It can include html.',
-      url: `https://luftpost-podcast.de/${i._id}`, // link to the item
-      guid: `https://luftpost-podcast.de/?p=${i._id}`, // optional - defaults to url
-      categories: ['Category 1', 'Category 2', 'Category 3', 'Category 4'], // optional - array of item categories
-      author: 'Guest Author', // optional - defaults to feed author property
+      title: i.title.replaceAll('&', '&amp;'),
+      description: i.body.html,
+      url: `https://luftpost-podcast.de/${i.slug}`, // link to the item
+      guid: i.guid, // optional - defaults to url
       date: i.publishedAt,
       lat: i.latitude,
       long: i.longitude,
-      enclosure: {url: '...', file: 'path-to-file'}, // optional enclosure
+      // @ts-ignore
+      enclosure: {url: i.mediaUrl, length: i.byteSize, type: i.mimeType},
       custom_elements: [
-        {'itunes:author': 'Daniel Büchele'},
-        {'itunes:subtitle': 'A short primer on table spices'},
+        {'itunes:author': db},
         {
           'itunes:image': {
             _attr: {
-              href: 'http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg',
+              href: cover,
             },
           },
         },
-        {'itunes:duration': '7:04'},
+        {'itunes:duration': secondsToTime(i.durationSeconds)},
       ],
     });
   }
 
   await fs.writeFile(
-    join(__dirname, '..', 'public', 'feed', 'podcast'),
-    feed.xml(),
+    join(__dirname, '..', 'public', 'feed.xml'),
+    feed
+      .xml({indent: '  '})
+      //removing CDATA from title
+      .replace(/<title><!\[CDATA\[(.+)]]><\/title>/gm, `<title>$1</title>`),
   );
 })();

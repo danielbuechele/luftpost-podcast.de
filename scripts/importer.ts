@@ -2,7 +2,7 @@ import {parseStringPromise} from 'xml2js';
 import fs from 'fs/promises';
 import {join} from 'path';
 import {NodeHtmlMarkdown} from 'node-html-markdown';
-var phpUnserialize = require('phpunserialize');
+import {parseFile} from 'music-metadata';
 
 const file =
   '/Users/danielbuechele/Downloads/luftpostpodcast.WordPress.2023-05-07.xml';
@@ -50,20 +50,21 @@ type WPItem = {
     const [latitude, longitude] =
       getMetaField(i, 'geolocation')?.split(',') ?? [];
 
-    const [mediaUrl, byteSize, mimeType, meta] =
+    const [mediaUrl, _, mimeType] =
       getMetaField(i, 'enclosure')?.split(/\r?\n/g) ?? [];
 
-    let durationSeconds = -1;
-    if (meta) {
-      const s: string | undefined = phpUnserialize(meta).length;
-
-      if (s) {
-        durationSeconds = s
-          .split(':')
-          .reverse()
-          .reduce((acc, cv, i) => acc + parseInt(cv, 10) * Math.pow(60, i), 0);
-      }
+    if (!mediaUrl) {
+      console.log(`Skipping ${i.title}`);
+      continue;
     }
+    const filename = mediaUrl.split('/').pop() ?? '';
+    const filePath = join(__dirname, 'media', filename);
+
+    const file = await parseFile(filePath, {
+      duration: true,
+    });
+
+    const stats = await fs.stat(filePath);
 
     let guest = getMetaField(i, 'guest');
     if ((guest?.indexOf('<a') ?? -1) > -1) {
@@ -82,13 +83,15 @@ type WPItem = {
       frontMatter.set('countryCode', getMetaField(i, 'countrycode'));
     frontMatter.set('latitude', latitude);
     frontMatter.set('longitude', longitude);
-    frontMatter.set('durationSeconds', durationSeconds);
-    frontMatter.set('byteSize', byteSize);
+    frontMatter.set('durationSeconds', Math.round(file.format.duration ?? -1));
+    frontMatter.set('byteSize', stats.size);
     frontMatter.set('mediaUrl', mediaUrl);
     frontMatter.set('mimeType', mimeType);
     frontMatter.set('guid', i.guid._);
 
     const slug = new URL(i.link).pathname.replaceAll('/', '');
+    console.log(`${filename} -> ${slug}`);
+
     await fs.writeFile(
       join(__dirname, '..', 'content', 'episodes', `${slug}.md`),
       `---

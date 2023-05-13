@@ -10,7 +10,8 @@ import Episode from '@/components/Episode';
 import Page from '@/components/Page';
 import Map from '@/components/Map';
 import Image from 'next/image';
-import {ReactMarkdown} from 'react-markdown/lib/react-markdown';
+import Body from '@/components/Body';
+import Link from 'next/link';
 
 type Props =
   | {contentType: 'Episode'; episode: EpisodeT}
@@ -21,12 +22,21 @@ export default function ContentPage(props: Props) {
   if (props.contentType === 'Page') {
     return (
       <Page
-        aside={<Image src={props.page.image} alt="" width={100} height={100} />}
+        aside={
+          <div style={{position: 'relative', height: '100%'}}>
+            <Image
+              src={props.page.image}
+              alt=""
+              fill
+              style={{objectFit: 'cover'}}
+            />
+          </div>
+        }
       >
         <Head>
           <title>{props.page.title + ' - ' + 'Luftpost Podcast'}</title>
         </Head>
-        <ReactMarkdown>{props.page.body.raw}</ReactMarkdown>
+        <Body title={props.page.title}>{props.page.body}</Body>
       </Page>
     );
   } else if (props.contentType === 'Episode') {
@@ -42,24 +52,22 @@ export default function ContentPage(props: Props) {
   } else {
     return (
       <Page aside={<Map />}>
+        <Head>
+          <title>Luftpost Podcast</title>
+          <meta
+            property="og:description"
+            content="Der Reisepodcast mit Daniel Büchele"
+          />
+        </Head>
         {props.allEpisodes.map((e) => (
-          <Episode key={e._id} episode={e} />
+          <Episode truncate key={e._id} episode={e} />
         ))}
+        <div>
+          <Link href="/alle-episoden">alle Episoden</Link>
+        </div>
       </Page>
     );
   }
-
-  // const options = {
-  //   root: null,
-  //   rootMargin: '0px',
-  //   threshold: [0.0, 0.2, 0.4, 0.6, 0.8, 1.0],
-  // };
-  // const intersectionCallback = function (entries) {
-  //   entries.forEach((entry) => {
-  //     const ratio = Math.round(100 * entry.intersectionRatio) / 100;
-  //   });
-  // };
-  // const observer = new IntersectionObserver(intersectionCallback, options);
 }
 
 export const getStaticProps: GetStaticProps<Props, {slug: string}> = async (
@@ -88,11 +96,13 @@ export const getStaticProps: GetStaticProps<Props, {slug: string}> = async (
   } else {
     return {
       props: {
-        allEpisodes: allEpisodes.sort(
-          (a, b) =>
-            new Date(b.publishedAt).getTime() -
-            new Date(a.publishedAt).getTime(),
-        ),
+        allEpisodes: allEpisodes
+          .sort(
+            (a, b) =>
+              new Date(b.publishedAt).getTime() -
+              new Date(a.publishedAt).getTime(),
+          )
+          .slice(0, 20),
         contentType: 'Home',
       },
     };
