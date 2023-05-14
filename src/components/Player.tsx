@@ -20,7 +20,6 @@ export default function Player(props: {episode: Episode}) {
           alt="Luftpost Podcast Cover-Bild"
         />
       </div>
-      {/* @ts-ignore */}
       <AudioPlayer
         defaultCurrentTime="0:00"
         defaultDuration={secondsToTime(props.episode.durationSeconds)}
