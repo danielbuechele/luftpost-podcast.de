@@ -16,7 +16,10 @@ jobs:
 
       - name: install
         run: yarn
-      - name: install
-        run: yarn rss
+      - name: build RSS feed
+        run:
+          - yarn contentlayer build
+          - yarn rss
+          - rm -rf scripts .contentlayer
       - name: deploy
         run: yarn vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
