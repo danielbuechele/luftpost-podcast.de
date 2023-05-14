@@ -1,8 +1,10 @@
-import allEpisodes from '../.contentlayer/generated/Episode/_index.json';
+// import allEpisodes from '../.contentlayer/generated/Episode/_index.json';
 import RSS from 'rss';
 import fs from 'fs/promises';
-import {join} from 'path';
+import {join, dirname} from 'path';
 import {secondsToTime} from '../src/utils/time';
+import {allEpisodes} from '../.contentlayer/generated/index.mjs';
+import {fileURLToPath} from 'url';
 
 (async () => {
   const sortEpisodes = allEpisodes.sort(
@@ -93,7 +95,7 @@ import {secondsToTime} from '../src/utils/time';
   }
 
   await fs.writeFile(
-    join(__dirname, '..', 'public', 'feed.xml'),
+    join(dirname(fileURLToPath(import.meta.url)), '..', 'public', 'feed.xml'),
     feed
       .xml({indent: '  '})
       //removing CDATA from title

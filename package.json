@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "contentlayer build && next build & yarn rss",
+    "build": "next build --no-lint & yarn rss",
     "start": "next start",
     "lint": "next lint",
-    "rss": "node -r @swc-node/register scripts/rss.ts"
+    "rss": "node --loader @swc-node/register/esm scripts/rss.ts"
   },
   "dependencies": {
     "contentlayer": "^0.3.2",
