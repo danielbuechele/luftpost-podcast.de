@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build & yarn rss",
+    "build": "contentlayer build && next build & yarn rss",
     "start": "next start",
     "lint": "next lint",
     "rss": "node -r @swc-node/register scripts/rss.ts"
