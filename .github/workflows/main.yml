@@ -20,6 +20,6 @@ jobs:
         run: |
           yarn contentlayer build
           yarn rss
-          rm -rf scripts .contentlayer
+          rm -rf scripts
       - name: deploy
         run: yarn vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
