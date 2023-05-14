@@ -31,6 +31,16 @@
   overflow: hidden;
 }
 
+/* https://browserstrangeness.github.io/css_hacks.html#safari */
+@supports (-webkit-hyphens: none) {
+  .bodyTruncate > * {
+    display: none;
+  }
+  .bodyTruncate > *:first-child {
+    display: inline;
+  }
+}
+
 .meta a,
 .title span a {
   color: var(--primary);
