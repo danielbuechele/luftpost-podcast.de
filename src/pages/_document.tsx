@@ -18,6 +18,10 @@ export default function Document() {
           property="og:image"
           content="https://luftpost-podcast.de/cover.png"
         />
+        <meta
+          property="og:description"
+          content="Der Reisepodcast mit Daniel Büchele"
+        />
         <meta name="apple-itunes-app" content="app-id=409553739"></meta>
         <link
           rel="icon"

@@ -3,8 +3,8 @@ title: Auswandern nach Portugal
 publishedAt: Tue, 21 Feb 2023 21:20:39 +0000
 guest: Friederike
 countryCode: pt
-latitude: undefined
-longitude: undefined
+latitude: 38.7223
+longitude: 9.1393
 durationSeconds: 4584
 byteSize: 64306543
 mediaUrl: https://luftpost-podcast.de/media/luftpost115-auswandern-nach-portugal.mp3

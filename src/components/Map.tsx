@@ -36,15 +36,17 @@ function Map(props: Props) {
         maxZoom: clusterMaxZoom,
         radius: clusterRadius,
       }).load(
-        allEpisodes.map((e) => ({
-          type: 'Feature' as const,
-          id: e._id,
-          properties: e,
-          geometry: {
-            coordinates: [e.longitude, e.latitude],
-            type: 'Point' as const,
-          },
-        })),
+        allEpisodes
+          .filter((e) => e.latitude != null && e.longitude != null)
+          .map((e) => ({
+            type: 'Feature' as const,
+            id: e._id,
+            properties: e,
+            geometry: {
+              coordinates: [e.longitude!, e.latitude!],
+              type: 'Point' as const,
+            },
+          })),
       ),
     [],
   );
@@ -67,7 +69,7 @@ function Map(props: Props) {
 
     mapRef.current?.flyTo({
       center: episode
-        ? [episode.longitude, episode.latitude]
+        ? [episode.longitude!, episode.latitude!]
         : [initialViewState.longitude, initialViewState.latitude],
       zoom:
         episode == null

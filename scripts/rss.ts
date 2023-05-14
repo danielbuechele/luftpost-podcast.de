@@ -68,7 +68,6 @@ import {secondsToTime} from '../src/utils/time';
   });
 
   for (const i of sortEpisodes) {
-    console.log(i.byteSize);
     feed.item({
       title: i.title.replaceAll('&', '&amp;'),
       description: i.body.html,

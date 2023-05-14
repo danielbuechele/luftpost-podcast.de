@@ -12,7 +12,10 @@ export default function Episode(props: Props) {
   return (
     <article className={styles.episode}>
       <div className={styles.title}>
-        <Flag className={styles.flag} countryCode={props.episode.countryCode} />
+        <Flag
+          className={styles.flag}
+          countryCode={props.episode.countryCode ?? null}
+        />
         <hgroup>
           <Link href={props.episode.slug}>
             <h1>{props.episode.title}</h1>

@@ -23,6 +23,7 @@ export default function Page({children, aside}: {children: any; aside: any}) {
           </nav>
           <Link href="/" className={styles.logo}>
             <Image
+              priority
               src={logo}
               width={158}
               height={158}

@@ -2,9 +2,6 @@
 title: Interrail
 publishedAt: Thu, 21 Oct 2021 21:03:34 +0000
 guest: Gig
-countryCode: undefined
-latitude: undefined
-longitude: undefined
 durationSeconds: 6041
 byteSize: 84703364
 mediaUrl: https://luftpost-podcast.de/media/luftpost112-interrail.mp3

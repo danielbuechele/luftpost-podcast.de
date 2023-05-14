@@ -33,17 +33,17 @@ export const Episode = defineDocumentType(() => ({
     countryCode: {
       type: 'string',
       description: 'The ISO 3166-1 country code',
-      required: true,
+      required: false,
     },
     latitude: {
       type: 'number',
       description: 'The title of the episode',
-      required: true,
+      required: false,
     },
     longitude: {
       type: 'number',
       description: 'The longitude',
-      required: true,
+      required: false,
     },
     durationSeconds: {
       type: 'number',

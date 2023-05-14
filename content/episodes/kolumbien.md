@@ -13,6 +13,7 @@ guid: https://luftpost-podcast.de/?p=1123
 ---
 
 Zufällig waren Mathias und ich gleichzeitig in München und wir konnten uns ganz ohne Skype unterhalten. Das er in Kolumbien war, ist jetzt schon gut 25 Jahre her. Trotzdem erinnert es sich noch an so viele Details, denn es war kein normaler Urlaub, sondern er hat dort für fünf Jahre gelebt und die Schule besucht. Wir haben die Episode in zehn kleine Anekdoten und Geschichten unterteilt:
+
 1. Erste Erinnerungen: Reunificación & Fußballverrückt in Kolumbien
 2. Unterricht zwischen Erdbeben und Bomben
 3. Die Nationalhymne zu Silvester
@@ -23,4 +24,4 @@ Zufällig waren Mathias und ich gleichzeitig in München und wir konnten uns gan
 8. Reifenwechsel am [Salto del Tequendama](https://de.wikipedia.org/wiki/Salto%5Fdel%5FTequendama)
 9. Sieben Stunden auf dem Meer
 10. Kolumbianische Weihnacht mit [Ajiaco](https://de.wikipedia.org/wiki/Ajiaco%5Fde%5FBogot%C3%A1)
-Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schreibt ihm eine Mail an [podcastbymat@gmail.com](%5Fwp%5Flink%5Fplaceholder).
+    Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schreibt ihm eine Mail an [podcastbymat@gmail.com](mailto:podcastbymat@gmail.com).

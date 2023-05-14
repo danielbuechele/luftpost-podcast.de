@@ -1,6 +1,6 @@
 ---
 title: Informationen
-image: /test.jpg
+image: /about.jpg
 ---
 
 Das Konzept vom Luftpost Podcast ist einfach aber genial: Spannende Länder, interessante Leute, tolle Geschichten. In einem Interview-Format hole ich Leute vor das Mikrofon und unterhalte mich mit ihnen über ihre Reise.

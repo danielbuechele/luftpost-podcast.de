@@ -2,9 +2,6 @@
 title: Digitale Nomaden
 publishedAt: Sun, 07 Apr 2013 21:04:11 +0000
 guest: '[Conni Biesalski](http://www.planetbackpack.de)'
-countryCode: undefined
-latitude: undefined
-longitude: undefined
 durationSeconds: 3630
 byteSize: 36382225
 mediaUrl: http://luftpost-podcast.de/media/luftpost46-digitalenomaden.mp3

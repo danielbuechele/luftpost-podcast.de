@@ -13,7 +13,12 @@ export default function Player(props: {episode: Episode}) {
   return (
     <div className={styles.playerContainer}>
       <div className={styles.cover}>
-        <Image src={cover} fill={true} alt="Luftpost Podcast Cover-Bild" />
+        <Image
+          src={cover}
+          width={100}
+          height={100}
+          alt="Luftpost Podcast Cover-Bild"
+        />
       </div>
 
       <AudioPlayer
@@ -44,7 +49,8 @@ export default function Player(props: {episode: Episode}) {
               Download
               {props.episode.byteSize > 0 && (
                 <>
-                  &nbsp;({Math.floor(props.episode.byteSize / 1024 / 1024)}
+                  &nbsp;(
+                  {Math.floor(props.episode.byteSize / 1024 / 1024)}
                   &nbsp;MB)
                 </>
               )}

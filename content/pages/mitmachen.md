@@ -1,6 +1,6 @@
 ---
 title: Mitmachen
-image: /test.jpg
+image: /mitmachen.jpg
 ---
 
 Ich suche ständig nach neuen Gästen, die von ihren Reisen berichten möchten. Davon lebt dieser Podcast! Dabei ist es egal, ob du einfach nur einen spannenden Urlaub verbracht hast, im Ausland studiert hast, oder dort lebst – ich freue mich über jede spannende Geschichte.

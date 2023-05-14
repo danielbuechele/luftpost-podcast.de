@@ -12,6 +12,7 @@ import Map from '@/components/Map';
 import Image from 'next/image';
 import Body from '@/components/Body';
 import Link from 'next/link';
+import styles from '@/styles/Home.module.css';
 
 type Props =
   | {contentType: 'Episode'; episode: EpisodeT}
@@ -29,6 +30,7 @@ export default function ContentPage(props: Props) {
               alt=""
               fill
               style={{objectFit: 'cover'}}
+              sizes="50vw"
             />
           </div>
         }
@@ -62,8 +64,10 @@ export default function ContentPage(props: Props) {
         {props.allEpisodes.map((e) => (
           <Episode truncate key={e._id} episode={e} />
         ))}
-        <div>
-          <Link href="/alle-episoden">alle Episoden</Link>
+        <div className={styles.allContainer}>
+          <Link className={styles.allEpisodes} href="/alle-episoden">
+            alle Episoden&hellip;
+          </Link>
         </div>
       </Page>
     );
