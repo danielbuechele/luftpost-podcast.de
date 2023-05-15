@@ -19,18 +19,19 @@ import {decodeHTML} from 'entities';
   const db = 'Daniel Büchele';
   const description =
     'Luftpost bringt in unregelmäßigen Abständen Interviews mit Leuten, die spannende Orte dieser Welt besucht haben. Gemeinsam sprechen wir über Kultur, Leben, Sehenswürdigkeiten und mehr Dinge, die es auf einer Reise dort zu erkunden gilt.';
+  const webMaster = `daniel@buechele.cc (${db})`;
 
   const feed = new RSS({
     title: 'Luftpost Podcast',
     description,
-    feed_url: 'https://luftpost-podcast.de/feed/podcast',
+    feed_url: 'https://luftpost-podcast.de/feed.xml',
     site_url: 'https://luftpost-podcast.de',
     image_url: cover,
-    webMaster: db,
-    copyright: `(c) ${new Date().getFullYear()} Daniel Büchele`,
+    webMaster,
+    copyright: `&#xA9; ${new Date().getFullYear()} ${db}`,
     language: 'de-DE',
     pubDate: sortEpisodes.at(0)?.publishedAt,
-    managingEditor: db,
+    managingEditor: webMaster,
     ttl: 60,
     custom_namespaces: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
@@ -79,7 +80,10 @@ import {decodeHTML} from 'entities';
   for (const i of sortEpisodes) {
     feed.item({
       title: i.title.replaceAll('&', '&amp;'),
-      description: summary(i.body.html, 100000),
+      description: summary(
+        i.body.html.replaceAll('href="/', 'href="https://luftpost-podcast.de/'),
+        100000,
+      ),
       url: `https://luftpost-podcast.de/${i.slug}`, // link to the item
       guid: i.guid, // optional - defaults to url
       date: i.publishedAt,

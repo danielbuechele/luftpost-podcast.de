@@ -9,13 +9,13 @@
       <link>https://luftpost-podcast.de</link>
     </image>
     <generator>RSS for Node</generator>
-    <lastBuildDate>Mon, 15 May 2023 22:14:44 GMT</lastBuildDate>
-    <atom:link href="https://luftpost-podcast.de/feed/podcast" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Mon, 15 May 2023 22:26:46 GMT</lastBuildDate>
+    <atom:link href="https://luftpost-podcast.de/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Sun, 23 Apr 2023 22:35:07 GMT</pubDate>
-    <copyright><![CDATA[(c) 2023 Daniel Büchele]]></copyright>
+    <copyright><![CDATA[&#xA9; 2023 Daniel Büchele]]></copyright>
     <language><![CDATA[de-DE]]></language>
-    <managingEditor><![CDATA[Daniel Büchele]]></managingEditor>
-    <webMaster><![CDATA[Daniel Büchele]]></webMaster>
+    <managingEditor><![CDATA[daniel@buechele.cc (Daniel Büchele)]]></managingEditor>
+    <webMaster><![CDATA[daniel@buechele.cc (Daniel Büchele)]]></webMaster>
     <ttl>60</ttl>
     <spotify:countryOfOrigin>de at ch</spotify:countryOfOrigin>
     <itunes:author>Daniel Büchele</itunes:author>
