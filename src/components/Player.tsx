@@ -5,7 +5,6 @@ import cover from '@/../public/cover.png';
 import Image from 'next/image';
 import {useState} from 'react';
 import {Episode} from 'contentlayer/generated';
-import Link from 'next/link';
 
 export default function Player(props: {episode: Episode}) {
   const [playing, isPlaying] = useState(false);
@@ -26,35 +25,22 @@ export default function Player(props: {episode: Episode}) {
         src={props.episode.mediaUrl}
         preload="none"
         customAdditionalControls={[
-          <div key="1">
-            <Link
-              onClick={(e) => {
-                if (typeof window.navigator.share == 'function') {
-                  e.preventDefault();
-                  window.navigator.share();
-                }
-              }}
-              href={props.episode.slug}
-            >
-              Teilen
-            </Link>
-            &nbsp;&middot;&nbsp;
-            <a
-              download={props.episode.mediaUrl.split('/').pop()}
-              target="_blank"
-              href={props.episode.mediaUrl}
-            >
-              {' '}
-              Download
-              {props.episode.byteSize > 0 && (
-                <>
-                  &nbsp;(
-                  {Math.floor(props.episode.byteSize / 1024 / 1024)}
-                  &nbsp;MB)
-                </>
-              )}
-            </a>
-          </div>,
+          <a
+            key="1"
+            download={props.episode.mediaUrl.split('/').pop()}
+            target="_blank"
+            href={props.episode.mediaUrl}
+          >
+            {' '}
+            Download
+            {props.episode.byteSize > 0 && (
+              <>
+                &nbsp;(
+                {Math.floor(props.episode.byteSize / 1024 / 1024)}
+                &nbsp;MB)
+              </>
+            )}
+          </a>,
         ]}
         customVolumeControls={playing ? undefined : []}
         showJumpControls={false}

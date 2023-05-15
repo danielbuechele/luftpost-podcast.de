@@ -20,7 +20,7 @@ export default function Episode(props: Props) {
           <Link href={props.episode.slug}>
             <h1>{props.episode.title}</h1>
           </Link>
-          <span>
+          <div className={styles.subtitle}>
             mit{' '}
             <ReactMarkdown allowedElements={['a']} unwrapDisallowed>
               {props.episode.guest}
@@ -33,7 +33,7 @@ export default function Episode(props: Props) {
                 year: 'numeric',
               })}
             </time>
-          </span>
+          </div>
         </hgroup>
       </div>
       <Player episode={props.episode} />

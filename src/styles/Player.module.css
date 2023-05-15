@@ -44,6 +44,16 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 1024px) {
+  .player {
+    margin: 0;
+  }
+
+  .cover {
+    display: none;
+  }
+}
+
 .player :global(.rhap_time) {
   color: inherit;
   font-size: inherit;

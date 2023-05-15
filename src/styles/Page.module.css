@@ -13,7 +13,7 @@
 
 .main {
   padding: 30px 50px;
-  overflow-y: scroll;
+  margin-left: 50%;
   width: 100%;
 }
 
@@ -29,9 +29,11 @@
 }
 
 .aside {
-  width: 50vw;
-  height: 100vh;
-  flex-shrink: 0;
+  position: fixed;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  top: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -46,6 +48,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .main {
+    margin-left: 0;
+  }
+
   .aside {
     display: none;
   }

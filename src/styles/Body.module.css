@@ -12,6 +12,7 @@
 
 .body h1,
 .body h2 {
+  line-height: 115%;
   margin-top: 24px;
   margin-bottom: 12px;
   font-weight: normal;

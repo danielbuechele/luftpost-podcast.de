@@ -17,10 +17,12 @@
   font-family: var(--futura);
   text-transform: uppercase;
   font-weight: 500;
+  line-height: 115%;
 }
 
-.title span {
+.title .subtitle {
   color: #888;
+  line-height: 115%;
   font-family: var(--fira-400);
 }
 
@@ -42,12 +44,12 @@
 }
 
 .meta a,
-.title span a {
+.title .subtitle a {
   color: var(--primary);
 }
 
 .meta a:hover,
-.title span a:hover {
+.title .subtitle a:hover {
   text-decoration: underline;
 }
 
