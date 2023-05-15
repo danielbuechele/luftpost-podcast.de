@@ -5,6 +5,9 @@ import {join, dirname} from 'path';
 import {secondsToTime} from '../src/utils/time';
 import {allEpisodes} from '../.contentlayer/generated/index.mjs';
 import {fileURLToPath} from 'url';
+import striptags from 'striptags';
+import truncate from 'truncate';
+import {decodeHTML} from 'entities';
 
 (async () => {
   const sortEpisodes = allEpisodes.sort(
@@ -14,16 +17,17 @@ import {fileURLToPath} from 'url';
 
   const cover = 'https://luftpost-podcast.de/cover.png';
   const db = 'Daniel Büchele';
+  const description =
+    'Luftpost bringt in unregelmäßigen Abständen Interviews mit Leuten, die spannende Orte dieser Welt besucht haben. Gemeinsam sprechen wir über Kultur, Leben, Sehenswürdigkeiten und mehr Dinge, die es auf einer Reise dort zu erkunden gilt.';
 
   const feed = new RSS({
     title: 'Luftpost Podcast',
-    description:
-      'Luftpost bringt in unregelmäßigen Abständen Interviews mit Leuten, die spannende Orte dieser Welt besucht haben. Gemeinsam sprechen wir über Kultur, Leben, Sehenswürdigkeiten und mehr Dinge, die es auf einer Reise dort zu erkunden gilt.',
+    description,
     feed_url: 'https://luftpost-podcast.de/feed/podcast',
     site_url: 'https://luftpost-podcast.de',
     image_url: cover,
     webMaster: db,
-    copyright: `${new Date().getFullYear()} Daniel Büchele`,
+    copyright: `(c) ${new Date().getFullYear()} Daniel Büchele`,
     language: 'de-DE',
     pubDate: sortEpisodes.at(0)?.publishedAt,
     managingEditor: db,
@@ -31,11 +35,15 @@ import {fileURLToPath} from 'url';
     custom_namespaces: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
       spotify: 'http://www.spotify.com/ns/rss',
+      content: 'http://purl.org/rss/1.0/modules/content/',
     },
     custom_elements: [
       {'spotify:countryOfOrigin': 'de at ch'},
       {'itunes:author': db},
       {'itunes:explicit': 'clean'},
+      {'itunes:summary': description},
+      {'itunes:subtitle': 'Der Reisepodcast mit Daniel Büchele'},
+      {'itunes:type': 'episodic'},
       {
         'itunes:owner': [
           {'itunes:name': db},
@@ -54,13 +62,13 @@ import {fileURLToPath} from 'url';
           {
             'itunes:category': {
               _attr: {
-                text: 'Society & Culture',
+                text: 'Places & Travel',
               },
             },
           },
           {
             _attr: {
-              text: 'Places & Travel',
+              text: 'Society & Culture',
             },
           },
         ],
@@ -71,15 +79,27 @@ import {fileURLToPath} from 'url';
   for (const i of sortEpisodes) {
     feed.item({
       title: i.title.replaceAll('&', '&amp;'),
-      description: i.body.html,
+      description: summary(i.body.html, 100000),
       url: `https://luftpost-podcast.de/${i.slug}`, // link to the item
       guid: i.guid, // optional - defaults to url
       date: i.publishedAt,
       lat: i.latitude,
       long: i.longitude,
-      // @ts-ignore
-      enclosure: {url: i.mediaUrl, length: i.byteSize, type: i.mimeType},
+      // enclosure: {url: i.mediaUrl, length: i.byteSize, type: i.mimeType},
       custom_elements: [
+        {'content:encoded': {_cdata: i.body.html}},
+        {'itunes:summary': summary(i.body.html, 4000)},
+        {
+          'itunes:subtitle': summary(i.body.html, 250).replace(
+            /(\r\n|\n|\r)/gm,
+            ' ',
+          ),
+        },
+        {
+          enclosure: {
+            _attr: {url: i.mediaUrl, length: i.byteSize, type: i.mimeType},
+          },
+        },
         {'itunes:author': db},
         {
           'itunes:image': {
@@ -101,3 +121,7 @@ import {fileURLToPath} from 'url';
       .replace(/<title><!\[CDATA\[(.+)]]><\/title>/gm, `<title>$1</title>`),
   );
 })();
+
+function summary(s: string, length: number) {
+  return truncate(decodeHTML(striptags(s)), length);
+}
