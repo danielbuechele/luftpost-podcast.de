@@ -7,7 +7,7 @@ latitude: 51.5073346
 longitude:  -0.1276831
 durationSeconds: 5146
 byteSize: 51549709
-mediaUrl: http://luftpost-podcast.de/media/luftpost28-london.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/london.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=465
 ---

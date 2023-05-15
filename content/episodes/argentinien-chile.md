@@ -7,7 +7,7 @@ latitude: -41.133472
 longitude: -71.310278
 durationSeconds: 4911
 byteSize: 49203628
-mediaUrl: http://luftpost-podcast.de/media/luftpost48-argentinien-chile.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/argentinien-chile.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=678
 ---

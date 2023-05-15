@@ -7,7 +7,7 @@ latitude: 28.635308
 longitude: 77.22496
 durationSeconds: 4799
 byteSize: 67642370
-mediaUrl: http://luftpost-podcast.de/media/luftpost09-indien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/indien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=205
 ---

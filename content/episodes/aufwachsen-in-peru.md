@@ -7,7 +7,7 @@ latitude: -12.0464
 longitude: -77.0428
 durationSeconds: 4016
 byteSize: 56352308
-mediaUrl: https://luftpost-podcast.de/media/luftpost101-aufwachsen-in-peru.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/aufwachsen-in-peru.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1152
 ---

@@ -7,7 +7,7 @@ latitude: 16.800000
 longitude:  96.150000
 durationSeconds: 6221
 byteSize: 62304737
-mediaUrl: http://luftpost-podcast.de/media/luftpost64-myanmar.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/myanmar.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=773
 ---

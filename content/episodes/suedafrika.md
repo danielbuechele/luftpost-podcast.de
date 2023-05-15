@@ -7,7 +7,7 @@ latitude: -25.747868
 longitude: 28.229271
 durationSeconds: 3939
 byteSize: 39532700
-mediaUrl: http://luftpost-podcast.de/media/luftpost84-suedafrika.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/suedafrika.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=945
 ---

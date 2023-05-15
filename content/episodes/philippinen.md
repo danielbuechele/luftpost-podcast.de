@@ -7,7 +7,7 @@ latitude: 11.209709
 longitude: 119.462254
 durationSeconds: 3487
 byteSize: 35008638
-mediaUrl: http://luftpost-podcast.de/media/luftpost89-philippinen.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/philippinen.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=964
 ---

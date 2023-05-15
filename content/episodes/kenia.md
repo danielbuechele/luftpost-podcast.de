@@ -7,7 +7,7 @@ latitude: -4.05
 longitude: 39.6666667
 durationSeconds: 4142
 byteSize: 58453145
-mediaUrl: http://luftpost-podcast.de/media/luftpost12-kenia.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kenia.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=284
 ---

@@ -7,7 +7,7 @@ latitude: 41.017211
 longitude: 29.026490
 durationSeconds: 3242
 byteSize: 45518752
-mediaUrl: https://luftpost-podcast.de/media/luftpost117-tuerkei.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/tuerkei.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1215
 ---

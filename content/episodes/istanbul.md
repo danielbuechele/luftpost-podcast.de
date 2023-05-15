@@ -7,7 +7,7 @@ latitude: 41.005270
 longitude: 28.976960
 durationSeconds: 7398
 byteSize: 74077679
-mediaUrl: http://luftpost-podcast.de/media/luftpost51-istanbul.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/istanbul.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=709
 ---

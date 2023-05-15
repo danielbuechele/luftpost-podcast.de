@@ -7,7 +7,7 @@ latitude: 12.364637
 longitude: -1.533864
 durationSeconds: 2899
 byteSize: 41046826
-mediaUrl: http://luftpost-podcast.de/media/luftpost05-burkinafaso.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/burkinafaso.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=158
 ---

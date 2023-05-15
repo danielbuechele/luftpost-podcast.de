@@ -7,7 +7,7 @@ latitude: -17.5602465032949
 longitude: 25.224609375
 durationSeconds: 5200
 byteSize: 73250228
-mediaUrl: http://luftpost-podcast.de/media/luftpost08-afrika.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/suedliches-afrika.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=188
 ---

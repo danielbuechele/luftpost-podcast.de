@@ -7,7 +7,7 @@ latitude: 68.138851
 longitude: 13.55712
 durationSeconds: 3731
 byteSize: 37405761
-mediaUrl: http://luftpost-podcast.de/media/luftpost40-norwegen2.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/norwegen-2.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=614
 ---

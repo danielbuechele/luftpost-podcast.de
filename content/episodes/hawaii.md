@@ -7,7 +7,7 @@ latitude: 21.306
 longitude: -157.855
 durationSeconds: 3363
 byteSize: 33716560
-mediaUrl: http://luftpost-podcast.de/media/luftpost42-hawaii.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/hawaii.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=630
 ---

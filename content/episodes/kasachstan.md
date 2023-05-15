@@ -7,7 +7,7 @@ latitude: 51.177600
 longitude: 71.433000
 durationSeconds: 4007
 byteSize: 56239087
-mediaUrl: https://luftpost-podcast.de/media/luftpost103-kasachstan.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kasachstan.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1160
 ---

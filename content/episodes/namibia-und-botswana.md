@@ -7,7 +7,7 @@ latitude: -22.560881
 longitude: 17.065756
 durationSeconds: 7082
 byteSize: 70965308
-mediaUrl: https://luftpost-podcast.de/media/luftpost99-namibia-botswana.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/namibia-und-botswana.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1129
 ---

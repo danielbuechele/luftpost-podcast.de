@@ -7,7 +7,7 @@ latitude: 8.994269
 longitude: -79.518792
 durationSeconds: 3981
 byteSize: 39903189
-mediaUrl: http://luftpost-podcast.de/media/luftpost52-panama.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/panama.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=716
 ---

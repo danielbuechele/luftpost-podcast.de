@@ -7,7 +7,7 @@ latitude: 15.369445
 longitude: 44.191007
 durationSeconds: 3952
 byteSize: 39664687
-mediaUrl: http://luftpost-podcast.de/media/luftpost77-jemen.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/jemen.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=916
 ---

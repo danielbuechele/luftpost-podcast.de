@@ -7,7 +7,7 @@ latitude: -7.264240
 longitude:  112.745579
 durationSeconds: 4354
 byteSize: 43636445
-mediaUrl: http://luftpost-podcast.de/media/luftpost62-indonesien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/indonesien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=767
 ---

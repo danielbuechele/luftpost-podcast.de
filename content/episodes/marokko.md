@@ -7,7 +7,7 @@ latitude: 31.630000
 longitude: -8.008889
 durationSeconds: 2374
 byteSize: 23879183
-mediaUrl: http://luftpost-podcast.de/media/luftpost76-marokko.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/marokko.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=912
 ---

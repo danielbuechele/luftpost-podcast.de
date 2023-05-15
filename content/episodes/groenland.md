@@ -7,7 +7,7 @@ latitude: 67.008611
 longitude: -50.689167
 durationSeconds: 3868
 byteSize: 38770061
-mediaUrl: http://luftpost-podcast.de/media/luftpost68-groenland.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/groenland.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=784
 ---

@@ -7,7 +7,7 @@ latitude: 37.960075
 longitude: 58.326061
 durationSeconds: 6947
 byteSize: 97399302
-mediaUrl: https://luftpost-podcast.de/media/luftpost109-turkmenistan.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/turkmenistan.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1185
 ---

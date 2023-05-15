@@ -7,7 +7,7 @@ latitude: 56.0462031
 longitude: 24.9042872
 durationSeconds: 5706
 byteSize: 57147508
-mediaUrl: http://luftpost-podcast.de/media/luftpost36-showmetheworld.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/show-me-the-world.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=571
 ---

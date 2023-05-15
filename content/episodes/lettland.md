@@ -7,7 +7,7 @@ latitude: 56.949649
 longitude: 24.105186
 durationSeconds: 2585
 byteSize: 25991826
-mediaUrl: http://luftpost-podcast.de/media/luftpost82-lettland.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/lettland.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=938
 ---

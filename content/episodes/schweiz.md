@@ -7,7 +7,7 @@ latitude: 47.123000
 longitude: 9.314300
 durationSeconds: 4697
 byteSize: 47061558
-mediaUrl: http://luftpost-podcast.de/media/luftpost58-schweiz.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/schweiz.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=747
 ---

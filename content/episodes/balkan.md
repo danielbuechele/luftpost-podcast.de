@@ -7,7 +7,7 @@ latitude: 42.682435
 longitude: 21.071777
 durationSeconds: 7018
 byteSize: 70272097
-mediaUrl: http://luftpost-podcast.de/media/luftpost54-balkan.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/balkan.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=727
 ---

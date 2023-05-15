@@ -7,7 +7,7 @@ latitude: 6.927079
 longitude: 79.861243
 durationSeconds: 5502
 byteSize: 55110679
-mediaUrl: http://luftpost-podcast.de/media/luftpost44-srilanka.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/sri-lanka.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=645
 ---

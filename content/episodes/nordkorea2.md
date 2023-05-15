@@ -7,7 +7,7 @@ latitude: 39.031859
 longitude: 125.753765
 durationSeconds: 5327
 byteSize: 75006967
-mediaUrl: http://luftpost-podcast.de/media/luftpost16-nordkorea2.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nordkorea2.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=324
 ---

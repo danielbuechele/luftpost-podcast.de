@@ -4,7 +4,7 @@ publishedAt: Mon, 28 Feb 2011 21:02:41 +0000
 guest: 'Alex und [Jonas](http://twitter.com/jonasrk)'
 durationSeconds: 5039
 byteSize: 70998132
-mediaUrl: http://luftpost-podcast.de/media/luftpost07-couchsurfing.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/couchsurfing.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=180
 ---

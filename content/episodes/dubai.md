@@ -7,7 +7,7 @@ latitude: 25.271139
 longitude:  55.307485
 durationSeconds: 4135
 byteSize: 41440307
-mediaUrl: http://luftpost-podcast.de/media/luftpost53-dubai.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/dubai.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=722
 ---

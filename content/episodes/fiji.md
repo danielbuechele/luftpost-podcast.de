@@ -7,7 +7,7 @@ latitude: -17.800000
 longitude: 177.416667
 durationSeconds: 4704
 byteSize: 47127996
-mediaUrl: http://luftpost-podcast.de/media/luftpost63-fiji.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/fiji.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=770
 ---

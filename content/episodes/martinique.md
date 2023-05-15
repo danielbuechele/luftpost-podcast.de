@@ -7,7 +7,7 @@ latitude: 14.641528
 longitude: -61.024174
 durationSeconds: 3696
 byteSize: 37094703
-mediaUrl: http://luftpost-podcast.de/media/luftpost97-martinique.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/martinique.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1116
 ---

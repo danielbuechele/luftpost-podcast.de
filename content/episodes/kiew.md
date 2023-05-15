@@ -7,7 +7,7 @@ latitude: 50.450100
 longitude: 30.523400
 durationSeconds: 4029
 byteSize: 40379570
-mediaUrl: http://luftpost-podcast.de/media/luftpost61-kiew.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kiew.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=763
 ---

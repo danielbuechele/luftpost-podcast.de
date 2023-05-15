@@ -7,7 +7,7 @@ latitude: 3.139003
 longitude: 101.686855
 durationSeconds: 7779
 byteSize: 77924464
-mediaUrl: http://luftpost-podcast.de/media/luftpost93-malaysia.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malaysia.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=987
 ---

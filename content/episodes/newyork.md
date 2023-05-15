@@ -7,7 +7,7 @@ latitude: 40.7143528
 longitude:  -74.0059731
 durationSeconds: 5424
 byteSize: 75868498
-mediaUrl: http://luftpost-podcast.de/media/luftpost04-newyork.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/newyork.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=144
 ---

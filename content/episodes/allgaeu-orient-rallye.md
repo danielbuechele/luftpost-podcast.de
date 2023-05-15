@@ -7,7 +7,7 @@ latitude: 31.956578
 longitude: 35.945695
 durationSeconds: 5779
 byteSize: 57876727
-mediaUrl: http://luftpost-podcast.de/media/luftpost79-orient-rallye.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/allgaeu-orient-rallye.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=924
 ---

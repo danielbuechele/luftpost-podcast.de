@@ -7,7 +7,7 @@ latitude: 16.600019
 longitude: -22.905769
 durationSeconds: 3131
 byteSize: 43978535
-mediaUrl: https://luftpost-podcast.de/media/luftpost104-kap-verde.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kap-verde.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1163
 ---

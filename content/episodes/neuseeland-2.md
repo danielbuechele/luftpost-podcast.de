@@ -7,7 +7,7 @@ latitude: -44.827734
 longitude: 167.792491
 durationSeconds: 6502
 byteSize: 65164330
-mediaUrl: http://luftpost-podcast.de/media/luftpost85-neuseeland2.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/neuseeland-2.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=948
 ---

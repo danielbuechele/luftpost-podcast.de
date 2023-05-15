@@ -7,7 +7,7 @@ latitude: 53.349805
 longitude: -6.26031
 durationSeconds: 4942
 byteSize: 49520059
-mediaUrl: http://luftpost-podcast.de/media/luftpost49-dublin.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/dublin.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=691
 ---

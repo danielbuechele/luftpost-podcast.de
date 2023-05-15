@@ -7,7 +7,7 @@ latitude: 21.04
 longitude: 105.855
 durationSeconds: 2829
 byteSize: 28379454
-mediaUrl: http://luftpost-podcast.de/media/luftpost34-vietnam3.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/live-vietnam-3.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=521
 ---

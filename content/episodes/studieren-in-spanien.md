@@ -7,7 +7,7 @@ latitude: 42.240217
 longitude: -8.721006
 durationSeconds: 5558
 byteSize: 55725442
-mediaUrl: http://luftpost-podcast.de/media/luftpost90-studieren-in-spanien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/studieren-in-spanien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=971
 ---

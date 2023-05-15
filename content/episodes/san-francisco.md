@@ -7,7 +7,7 @@ latitude: 37.774929
 longitude: -122.419416
 durationSeconds: 7718
 byteSize: 77318382
-mediaUrl: http://luftpost-podcast.de/media/luftpost72-sanfrancisco.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/san-francisco.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=875
 ---

@@ -7,7 +7,7 @@ latitude: 59.4388619
 longitude: 24.7544715
 durationSeconds: 3456
 byteSize: 48870953
-mediaUrl: http://luftpost-podcast.de/media/luftpost06-estland.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/estland.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=167
 ---

@@ -7,7 +7,7 @@ latitude: 34.802075
 longitude: 38.996815
 durationSeconds: 6245
 byteSize: 87807168
-mediaUrl: http://luftpost-podcast.de/media/luftpost23-syrien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/syrien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=406
 ---

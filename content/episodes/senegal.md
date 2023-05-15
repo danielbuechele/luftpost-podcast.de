@@ -7,7 +7,7 @@ latitude: 14.698230
 longitude: -17.437130
 durationSeconds: 3789
 byteSize: 53179769
-mediaUrl: https://luftpost-podcast.de/media/luftpost107-senegal.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/senegal.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1175
 ---

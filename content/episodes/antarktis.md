@@ -7,7 +7,7 @@ latitude: -64.867608
 longitude: -62.787239
 durationSeconds: 7072
 byteSize: 99155771
-mediaUrl: https://luftpost-podcast.de/media/luftpost108-antarktis.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/antarktis.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1180
 ---

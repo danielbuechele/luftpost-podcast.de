@@ -7,7 +7,7 @@ latitude: 59.329323
 longitude:  18.068581
 durationSeconds: 4130
 byteSize: 41392204
-mediaUrl: http://luftpost-podcast.de/media/luftpost70-schweden.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/schweden.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=789
 ---

@@ -7,7 +7,7 @@ latitude: 55.676097
 longitude:  12.568337
 durationSeconds: 4897
 byteSize: 49108972
-mediaUrl: http://luftpost-podcast.de/media/luftpost73-skandinavien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/blind-durch-skandinavien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=899
 ---

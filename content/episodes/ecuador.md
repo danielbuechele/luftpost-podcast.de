@@ -7,7 +7,7 @@ latitude: -3.990138
 longitude: -79.204460
 durationSeconds: 5606
 byteSize: 56152796
-mediaUrl: http://luftpost-podcast.de/media/luftpost56-ecuador.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/ecuador.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=735
 ---

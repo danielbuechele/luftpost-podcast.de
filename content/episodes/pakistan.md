@@ -7,7 +7,7 @@ latitude: 33.684422
 longitude: 73.047882
 durationSeconds: 4499
 byteSize: 63130045
-mediaUrl: https://luftpost-podcast.de/media/luftpost106-pakistan.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/pakistan.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1171
 ---

@@ -7,7 +7,7 @@ latitude: -12.463440
 longitude: 130.845642
 durationSeconds: 7012
 byteSize: 98302980
-mediaUrl: https://luftpost-podcast.de/media/luftpost110-australien-auf-dem-landweg.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nach-australien-auf-dem-landweg.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1190
 ---

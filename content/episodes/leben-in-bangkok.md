@@ -7,7 +7,7 @@ latitude: 13.756331
 longitude: 100.501765
 durationSeconds: 4450
 byteSize: 71336550
-mediaUrl: http://luftpost-podcast.de/media/luftpost88-bangkok.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/leben-in-bangkok.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=958
 ---

@@ -7,7 +7,7 @@ latitude: 12.114993
 longitude: -86.236174
 durationSeconds: 3888
 byteSize: 39015721
-mediaUrl: http://luftpost-podcast.de/media/luftpost87-nicaragua.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nicaragua.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=955
 ---

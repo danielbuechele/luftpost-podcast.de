@@ -4,7 +4,7 @@ publishedAt: Fri, 05 Aug 2011 07:14:29 +0000
 guest: mir
 durationSeconds: 273
 byteSize: 4954406
-mediaUrl: http://luftpost-podcast.de/media/luftpost14-behindthewall.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/looking-behind-the-wall.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=310
 ---

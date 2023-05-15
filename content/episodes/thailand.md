@@ -7,7 +7,7 @@ latitude: 18.787747
 longitude: 98.993128
 durationSeconds: 7066
 byteSize: 99311734
-mediaUrl: http://luftpost-podcast.de/media/luftpost13-thailand.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/thailand.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=298
 ---

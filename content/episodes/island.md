@@ -7,7 +7,7 @@ latitude: 64.133333
 longitude: -21.933333
 durationSeconds: 6175
 byteSize: 61838487
-mediaUrl: http://luftpost-podcast.de/media/luftpost66-island.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/island.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=779
 ---

@@ -7,7 +7,7 @@ latitude: 21.543333
 longitude:  39.172778
 durationSeconds: 5443
 byteSize: 54516486
-mediaUrl: http://luftpost-podcast.de/media/luftpost69-saudiarabien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/saudi-arabien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=787
 ---

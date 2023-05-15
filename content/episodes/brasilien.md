@@ -7,7 +7,7 @@ latitude: -22.9035393
 longitude: -43.2095869
 durationSeconds: 5146
 byteSize: 51546595
-mediaUrl: http://luftpost-podcast.de/media/luftpost27-brasilien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/brasilien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=455
 ---

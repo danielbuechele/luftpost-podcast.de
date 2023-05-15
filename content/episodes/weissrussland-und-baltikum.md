@@ -7,7 +7,7 @@ latitude: 53.900000
 longitude:  27.566667
 durationSeconds: 4950
 byteSize: 49596425
-mediaUrl: http://luftpost-podcast.de/media/luftpost71-weissrussland.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/weissrussland-und-baltikum.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=792
 ---

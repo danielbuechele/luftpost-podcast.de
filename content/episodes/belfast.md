@@ -7,7 +7,7 @@ latitude: 54.597285
 longitude: -5.93012
 durationSeconds: 2289
 byteSize: 23033005
-mediaUrl: http://luftpost-podcast.de/media/luftpost81-belfast.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/belfast.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=933
 ---

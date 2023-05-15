@@ -7,7 +7,7 @@ latitude: 17.975706
 longitude: 102.633104
 durationSeconds: 4275
 byteSize: 42887914
-mediaUrl: http://luftpost-podcast.de/media/luftpost96-laos.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/laos.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1000
 ---

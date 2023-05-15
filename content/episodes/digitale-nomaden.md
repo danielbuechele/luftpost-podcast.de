@@ -4,7 +4,7 @@ publishedAt: Sun, 07 Apr 2013 21:04:11 +0000
 guest: '[Conni Biesalski](http://www.planetbackpack.de)'
 durationSeconds: 3630
 byteSize: 36382225
-mediaUrl: http://luftpost-podcast.de/media/luftpost46-digitalenomaden.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/digitale-nomaden.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=660
 ---

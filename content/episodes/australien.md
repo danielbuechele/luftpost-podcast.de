@@ -7,12 +7,12 @@ latitude: -31.953513
 longitude: 115.857047
 durationSeconds: 11370
 byteSize: 95909711
-mediaUrl: http://luftpost-podcast.de/media/luftpost29-australien.m4a
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/australien.m4a
 mimeType: audio/mp4
 guid: http://luftpost-podcast.de/?p=472
 ---
 
-Lange hat es gedauert, bis eine Episode über den roten Kontinent erschienen ist. Dafür bekommt ihr direkt die geballte Ladung: In über 3 Stunden erzählt Rene von Work&Travel in Down Under. Er hat fast den gesamten Kontinent gesehen, ist mit dem Auto durch die Wüste gefahren und war am Great Barrier Reef tauchen. Auch als Enhanced-Podcast mit Kapitelmarken verfügbar: [M4A](http://luftpost-podcast.de/media/luftpost29-australien.m4a). 
+Lange hat es gedauert, bis eine Episode über den roten Kontinent erschienen ist. Dafür bekommt ihr direkt die geballte Ladung: In über 3 Stunden erzählt Rene von Work&Travel in Down Under. Er hat fast den gesamten Kontinent gesehen, ist mit dem Auto durch die Wüste gefahren und war am Great Barrier Reef tauchen. Auch als Enhanced-Podcast mit Kapitelmarken verfügbar: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/australien.m4a). 
 * 00:00:00 Einleitung und Idee
 * 00:02:40 Planung, Visum, Agenturen, Arbeiten
 * 00:11:00 Sightseeing in [Sydney](http://de.wikipedia.org/wiki/Sydney)

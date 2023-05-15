@@ -7,7 +7,7 @@ latitude: 52.1054611
 longitude: -119.6489096
 durationSeconds: 3610
 byteSize: 51029945
-mediaUrl: http://luftpost-podcast.de/media/luftpost18-kanada.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kanada.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=344
 ---

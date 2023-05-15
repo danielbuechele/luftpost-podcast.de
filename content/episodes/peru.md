@@ -7,7 +7,7 @@ latitude: -12.0433333
 longitude:  -77.0283333
 durationSeconds: 6380
 byteSize: 89225844
-mediaUrl: http://luftpost-podcast.de/media/luftpost03-peru.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/peru.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=114
 ---

@@ -7,7 +7,7 @@ latitude: 46.848186
 longitude:  29.596806
 durationSeconds: 4740
 byteSize: 94940551
-mediaUrl: https://luftpost-podcast.de/media/luftpost102-republik-moldau-transnistrien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/republik-moldau-und-transnistrien.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1156
 ---

@@ -7,7 +7,7 @@ latitude: 40.183333
 longitude: 44.516667
 durationSeconds: 6605
 byteSize: 66145595
-mediaUrl: http://luftpost-podcast.de/media/luftpost37-armenien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/armenien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=585
 ---

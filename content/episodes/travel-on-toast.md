@@ -4,7 +4,7 @@ publishedAt: Fri, 22 Mar 2013 17:58:52 +0000
 guest: '[Anja Beckmann](https://twitter.com/Anja%5FBeckmann)'
 durationSeconds: 3578
 byteSize: 35873205
-mediaUrl: http://luftpost-podcast.de/media/luftpost45-travelontoast.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/travel-on-toast.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=649
 ---

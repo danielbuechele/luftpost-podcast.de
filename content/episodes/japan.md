@@ -7,7 +7,7 @@ latitude: 35.6894875
 longitude:  139.6917064
 durationSeconds: 6861
 byteSize: 95957573
-mediaUrl: http://luftpost-podcast.de/media/luftpost02-japan.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/japan.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=44
 ---

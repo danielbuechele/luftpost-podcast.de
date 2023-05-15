@@ -7,7 +7,7 @@ latitude: 43.653226
 longitude: -79.383184
 durationSeconds: 5725
 byteSize: 57339977
-mediaUrl: http://luftpost-podcast.de/media/luftpost65-kanada.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/auswandern-nach-kanada.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=777
 ---

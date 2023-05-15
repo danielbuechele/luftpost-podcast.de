@@ -7,7 +7,7 @@ latitude: 29.534667
 longitude: 35.407909
 durationSeconds: 4497
 byteSize: 45105571
-mediaUrl: http://luftpost-podcast.de/media/luftpost91-jordanien.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/jordanien.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=977
 ---

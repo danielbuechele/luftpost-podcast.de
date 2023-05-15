@@ -7,7 +7,7 @@ latitude: -6.792354
 longitude: 39.208328
 durationSeconds: 6780
 byteSize: 67939286
-mediaUrl: http://luftpost-podcast.de/media/luftpost95-tansania.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/tansania-und-kenia.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=997
 ---

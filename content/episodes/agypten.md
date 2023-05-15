@@ -7,7 +7,7 @@ latitude: 30.0444196
 longitude: 31.2357116
 durationSeconds: 4572
 byteSize: 45811972
-mediaUrl: http://luftpost-podcast.de/media/luftpost26-aegypten.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/agypten.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=449
 ---

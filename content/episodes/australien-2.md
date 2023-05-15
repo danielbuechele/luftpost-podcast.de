@@ -7,7 +7,7 @@ latitude: -33.867487
 longitude: 151.206990
 durationSeconds: 8711
 byteSize: 87211513
-mediaUrl: http://luftpost-podcast.de/media/luftpost43-australien2.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/australien-2.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=639
 ---

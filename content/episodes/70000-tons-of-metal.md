@@ -7,7 +7,7 @@ latitude: 25.788969
 longitude: -80.226439
 durationSeconds: 4084
 byteSize: 40928763
-mediaUrl: http://luftpost-podcast.de/media/luftpost59-70000tons.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/70000-tons-of-metal.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=752
 ---

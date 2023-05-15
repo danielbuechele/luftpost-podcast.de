@@ -7,7 +7,7 @@ latitude: 4.175278
 longitude: 73.508889
 durationSeconds: 3640
 byteSize: 36490570
-mediaUrl: http://luftpost-podcast.de/media/luftpost67-malediven.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malediven.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=782
 ---

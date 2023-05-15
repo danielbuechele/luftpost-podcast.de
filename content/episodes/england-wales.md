@@ -7,7 +7,7 @@ latitude: 50.718412
 longitude: -3.533899
 durationSeconds: 3412
 byteSize: 34255799
-mediaUrl: http://luftpost-podcast.de/media/luftpost78-england.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/england-wales.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=921
 ---

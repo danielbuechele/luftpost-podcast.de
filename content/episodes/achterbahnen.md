@@ -7,7 +7,7 @@ latitude: 42.3703817
 longitude: -87.9361547
 durationSeconds: 3816
 byteSize: 38299172
-mediaUrl: http://luftpost-podcast.de/media/luftpost80-achterbahnen.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/achterbahnen.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=928
 ---

@@ -7,7 +7,7 @@ latitude: 23.610000
 longitude: 58.54
 durationSeconds: 3614
 byteSize: 36282085
-mediaUrl: http://luftpost-podcast.de/media/luftpost74-oman.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/oman.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=902
 ---

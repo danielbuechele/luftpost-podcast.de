@@ -7,7 +7,7 @@ latitude: 59.934280
 longitude: 30.335098
 durationSeconds: 4637
 byteSize: 65058561
-mediaUrl: https://luftpost-podcast.de/media/luftpost114-per-anhalter-durch-russland.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/per-anhalter-durch-russland.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1203
 ---

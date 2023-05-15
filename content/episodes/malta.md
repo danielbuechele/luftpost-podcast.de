@@ -7,7 +7,7 @@ latitude: 35.952353
 longitude:  14.350097
 durationSeconds: 2834
 byteSize: 28476916
-mediaUrl: http://luftpost-podcast.de/media/luftpost83-malta.mp3
+mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malta.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=941
 ---
