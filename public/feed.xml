@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
   <channel>
     <title>Luftpost Podcast</title>
     <description><![CDATA[Luftpost bringt in unregelmäßigen Abständen Interviews mit Leuten, die spannende Orte dieser Welt besucht haben. Gemeinsam sprechen wir über Kultur, Leben, Sehenswürdigkeiten und mehr Dinge, die es auf einer Reise dort zu erkunden gilt.]]></description>
@@ -9,7 +9,7 @@
       <link>https://luftpost-podcast.de</link>
     </image>
     <generator>RSS for Node</generator>
-    <lastBuildDate>Sun, 14 May 2023 21:25:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 May 2023 21:39:19 GMT</lastBuildDate>
     <atom:link href="https://luftpost-podcast.de/feed/podcast" rel="self" type="application/rss+xml"/>
     <pubDate>Sun, 23 Apr 2023 22:35:07 GMT</pubDate>
     <copyright><![CDATA[2023 Daniel Büchele]]></copyright>
@@ -36,7 +36,7 @@
       <pubDate>Sun, 23 Apr 2023 22:35:07 GMT</pubDate>
       <geo:lat>41.017211</geo:lat>
       <geo:long>29.02649</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost117-tuerkei.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/tuerkei.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>54:02</itunes:duration>
@@ -49,7 +49,7 @@
       <pubDate>Sun, 05 Mar 2023 21:27:19 GMT</pubDate>
       <geo:lat>31.71879</geo:lat>
       <geo:long>-8.09695</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost116-marokko.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/marokko-2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:02:34</itunes:duration>
@@ -62,7 +62,7 @@
       <pubDate>Tue, 21 Feb 2023 21:20:39 GMT</pubDate>
       <geo:lat>38.7223</geo:lat>
       <geo:long>9.1393</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost115-auswandern-nach-portugal.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/auswandern-nach-portugal.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:16:24</itunes:duration>
@@ -86,7 +86,7 @@
       <pubDate>Sun, 13 Feb 2022 15:01:03 GMT</pubDate>
       <geo:lat>59.93428</geo:lat>
       <geo:long>30.335098</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost114-per-anhalter-durch-russland.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/per-anhalter-durch-russland.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:17:17</itunes:duration>
@@ -120,7 +120,7 @@
       <pubDate>Sat, 20 Nov 2021 17:02:26 GMT</pubDate>
       <geo:lat>18.564631</geo:lat>
       <geo:long>-69.843582</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost113-domrep-panama.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/dominikanische-republik-panama.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:21:15</itunes:duration>
@@ -131,7 +131,7 @@
       <link>https://luftpost-podcast.de/interrail</link>
       <guid isPermaLink="false">https://luftpost-podcast.de/?p=1197</guid>
       <pubDate>Thu, 21 Oct 2021 21:03:34 GMT</pubDate>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost112-interrail.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/interrail.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:40:41</itunes:duration>
@@ -153,7 +153,7 @@
       <pubDate>Mon, 13 Sep 2021 21:24:16 GMT</pubDate>
       <geo:lat>34.555347</geo:lat>
       <geo:long>69.207489</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost111-afghanistan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/afghanistan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:17:27</itunes:duration>
@@ -166,7 +166,7 @@
       <pubDate>Thu, 03 Jun 2021 22:08:04 GMT</pubDate>
       <geo:lat>-12.46344</geo:lat>
       <geo:long>130.845642</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost110-australien-auf-dem-landweg.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nach-australien-auf-dem-landweg.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:56:52</itunes:duration>
@@ -202,7 +202,7 @@
       <pubDate>Mon, 15 Mar 2021 09:31:52 GMT</pubDate>
       <geo:lat>37.960075</geo:lat>
       <geo:long>58.326061</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost109-turkmenistan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/turkmenistan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:55:47</itunes:duration>
@@ -245,7 +245,7 @@
       <pubDate>Thu, 24 Dec 2020 16:22:40 GMT</pubDate>
       <geo:lat>-64.867608</geo:lat>
       <geo:long>-62.787239</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost108-antarktis.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/antarktis.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:57:52</itunes:duration>
@@ -258,7 +258,7 @@
       <pubDate>Fri, 28 Aug 2020 20:38:26 GMT</pubDate>
       <geo:lat>14.69823</geo:lat>
       <geo:long>-17.43713</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost107-senegal.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/senegal.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:03:09</itunes:duration>
@@ -285,7 +285,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sun, 07 Jun 2020 16:24:26 GMT</pubDate>
       <geo:lat>33.684422</geo:lat>
       <geo:long>73.047882</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost106-pakistan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/pakistan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:14:59</itunes:duration>
@@ -298,7 +298,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sun, 05 Apr 2020 21:21:00 GMT</pubDate>
       <geo:lat>13.69294</geo:lat>
       <geo:long>-89.218193</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost105-el-salvador.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/el-salvador.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:09:46</itunes:duration>
@@ -320,7 +320,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sat, 21 Mar 2020 18:19:21 GMT</pubDate>
       <geo:lat>16.600019</geo:lat>
       <geo:long>-22.905769</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost104-kap-verde.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kap-verde.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>52:11</itunes:duration>
@@ -344,7 +344,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sun, 15 Mar 2020 22:38:47 GMT</pubDate>
       <geo:lat>51.1776</geo:lat>
       <geo:long>71.433</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost103-kasachstan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kasachstan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:06:47</itunes:duration>
@@ -376,7 +376,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sat, 15 Feb 2020 16:17:58 GMT</pubDate>
       <geo:lat>46.848186</geo:lat>
       <geo:long>29.596806</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost102-republik-moldau-transnistrien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/republik-moldau-und-transnistrien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:19:00</itunes:duration>
@@ -389,7 +389,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sun, 26 Jan 2020 17:10:05 GMT</pubDate>
       <geo:lat>-12.0464</geo:lat>
       <geo:long>-77.0428</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost101-aufwachsen-in-peru.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/aufwachsen-in-peru.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:06:56</itunes:duration>
@@ -410,7 +410,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Sat, 18 Jan 2020 16:59:14 GMT</pubDate>
       <geo:lat>17.189877</geo:lat>
       <geo:long>-88.49765</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost100-belize.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/belize.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:09:23</itunes:duration>
@@ -461,7 +461,7 @@ Mehr über die Reisen der beiden findet man in ihrem <a href="https://travellers
       <pubDate>Mon, 25 Mar 2019 22:11:10 GMT</pubDate>
       <geo:lat>-22.560881</geo:lat>
       <geo:long>17.065756</geo:long>
-      <enclosure url="https://luftpost-podcast.de/media/luftpost99-namibia-botswana.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/namibia-und-botswana.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:58:02</itunes:duration>
@@ -487,7 +487,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Fri, 08 Feb 2019 16:51:52 GMT</pubDate>
       <geo:lat>4.60688</geo:lat>
       <geo:long>-74.07184</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost98-kolumbien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kolumbien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:35:30</itunes:duration>
@@ -508,7 +508,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Sun, 12 Aug 2018 22:25:04 GMT</pubDate>
       <geo:lat>14.641528</geo:lat>
       <geo:long>-61.024174</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost97-martinique.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/martinique.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:01:36</itunes:duration>
@@ -535,7 +535,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Sat, 10 Mar 2018 23:53:36 GMT</pubDate>
       <geo:lat>17.975706</geo:lat>
       <geo:long>102.633104</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost96-laos.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/laos.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:11:15</itunes:duration>
@@ -567,7 +567,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Sun, 07 Jan 2018 14:53:28 GMT</pubDate>
       <geo:lat>-6.792354</geo:lat>
       <geo:long>39.208328</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost95-tansania.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/tansania-und-kenia.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:53:00</itunes:duration>
@@ -604,7 +604,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Wed, 27 Dec 2017 22:36:35 GMT</pubDate>
       <geo:lat>40.513998</geo:lat>
       <geo:long>72.816098</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost94-kirgistan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kirgistan-und-nepal.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:50:53</itunes:duration>
@@ -629,7 +629,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Mon, 02 Oct 2017 09:31:22 GMT</pubDate>
       <geo:lat>3.139003</geo:lat>
       <geo:long>101.686855</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost93-malaysia.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malaysia.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:09:39</itunes:duration>
@@ -652,7 +652,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Wed, 02 Aug 2017 22:31:18 GMT</pubDate>
       <geo:lat>47.886399</geo:lat>
       <geo:long>106.905744</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost92-mongolei.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/mongolei.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:57:22</itunes:duration>
@@ -680,7 +680,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Sat, 15 Apr 2017 22:32:58 GMT</pubDate>
       <geo:lat>29.534667</geo:lat>
       <geo:long>35.407909</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost91-jordanien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/jordanien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:14:57</itunes:duration>
@@ -718,7 +718,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Thu, 16 Feb 2017 23:12:31 GMT</pubDate>
       <geo:lat>42.240217</geo:lat>
       <geo:long>-8.721006</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost90-studieren-in-spanien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/studieren-in-spanien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:32:38</itunes:duration>
@@ -752,7 +752,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Mon, 19 Dec 2016 22:28:18 GMT</pubDate>
       <geo:lat>11.209709</geo:lat>
       <geo:long>119.462254</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost89-philippinen.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/philippinen.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>58:07</itunes:duration>
@@ -776,7 +776,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Mon, 22 Aug 2016 20:49:45 GMT</pubDate>
       <geo:lat>13.756331</geo:lat>
       <geo:long>100.501765</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost88-bangkok.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/leben-in-bangkok.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:14:10</itunes:duration>
@@ -798,7 +798,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Sun, 01 May 2016 11:07:43 GMT</pubDate>
       <geo:lat>12.114993</geo:lat>
       <geo:long>-86.236174</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost87-nicaragua.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nicaragua.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:04:48</itunes:duration>
@@ -838,7 +838,7 @@ Wer Interesse an Mathias neuen Podcast hat, den er in der Episode erwähnt, schr
       <pubDate>Tue, 22 Mar 2016 21:46:08 GMT</pubDate>
       <geo:lat>23.113592</geo:lat>
       <geo:long>-82.366596</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost86-kuba.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kuba.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:09:17</itunes:duration>
@@ -880,7 +880,7 @@ südliche Insel:</li>
       <pubDate>Mon, 15 Feb 2016 23:53:43 GMT</pubDate>
       <geo:lat>-44.827734</geo:lat>
       <geo:long>167.792491</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost85-neuseeland2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/neuseeland-2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:48:22</itunes:duration>
@@ -906,7 +906,7 @@ südliche Insel:</li>
       <pubDate>Wed, 06 Jan 2016 17:08:52 GMT</pubDate>
       <geo:lat>-25.747868</geo:lat>
       <geo:long>28.229271</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost84-suedafrika.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/suedafrika.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:05:39</itunes:duration>
@@ -931,7 +931,7 @@ südliche Insel:</li>
       <pubDate>Sun, 13 Dec 2015 20:22:33 GMT</pubDate>
       <geo:lat>35.952353</geo:lat>
       <geo:long>14.350097</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost83-malta.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malta.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>47:14</itunes:duration>
@@ -951,7 +951,7 @@ südliche Insel:</li>
       <pubDate>Fri, 09 Oct 2015 20:21:18 GMT</pubDate>
       <geo:lat>56.949649</geo:lat>
       <geo:long>24.105186</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost82-lettland.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/lettland.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>43:05</itunes:duration>
@@ -974,7 +974,7 @@ südliche Insel:</li>
       <pubDate>Sat, 26 Sep 2015 14:57:00 GMT</pubDate>
       <geo:lat>54.597285</geo:lat>
       <geo:long>-5.93012</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost81-belfast.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/belfast.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>38:09</itunes:duration>
@@ -995,7 +995,7 @@ südliche Insel:</li>
       <pubDate>Sun, 30 Aug 2015 12:30:33 GMT</pubDate>
       <geo:lat>42.3703817</geo:lat>
       <geo:long>-87.9361547</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost80-achterbahnen.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/achterbahnen.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:03:36</itunes:duration>
@@ -1008,7 +1008,7 @@ südliche Insel:</li>
       <pubDate>Sat, 22 Aug 2015 19:30:26 GMT</pubDate>
       <geo:lat>31.956578</geo:lat>
       <geo:long>35.945695</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost79-orient-rallye.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/allgaeu-orient-rallye.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:36:19</itunes:duration>
@@ -1032,7 +1032,7 @@ südliche Insel:</li>
       <pubDate>Mon, 22 Jun 2015 10:21:42 GMT</pubDate>
       <geo:lat>50.718412</geo:lat>
       <geo:long>-3.533899</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost78-england.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/england-wales.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>56:52</itunes:duration>
@@ -1059,7 +1059,7 @@ südliche Insel:</li>
       <pubDate>Sun, 24 May 2015 10:33:33 GMT</pubDate>
       <geo:lat>15.369445</geo:lat>
       <geo:long>44.191007</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost77-jemen.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/jemen.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:05:52</itunes:duration>
@@ -1082,7 +1082,7 @@ südliche Insel:</li>
       <pubDate>Sat, 25 Apr 2015 10:08:14 GMT</pubDate>
       <geo:lat>31.63</geo:lat>
       <geo:long>-8.008889</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost76-marokko.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/marokko.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>39:34</itunes:duration>
@@ -1109,7 +1109,7 @@ südliche Insel:</li>
       <pubDate>Sun, 22 Mar 2015 10:30:47 GMT</pubDate>
       <geo:lat>-16.5</geo:lat>
       <geo:long>-68.15</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost75-bolivien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/bolivien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:10:31</itunes:duration>
@@ -1136,7 +1136,7 @@ südliche Insel:</li>
       <pubDate>Fri, 13 Feb 2015 10:14:13 GMT</pubDate>
       <geo:lat>23.61</geo:lat>
       <geo:long>58.54</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost74-oman.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/oman.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:00:14</itunes:duration>
@@ -1173,7 +1173,7 @@ südliche Insel:</li>
       <pubDate>Mon, 26 Jan 2015 14:56:05 GMT</pubDate>
       <geo:lat>55.676097</geo:lat>
       <geo:long>12.568337</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost73-skandinavien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/blind-durch-skandinavien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:21:37</itunes:duration>
@@ -1210,7 +1210,7 @@ südliche Insel:</li>
       <pubDate>Mon, 29 Dec 2014 10:46:41 GMT</pubDate>
       <geo:lat>37.774929</geo:lat>
       <geo:long>-122.419416</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost72-sanfrancisco.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/san-francisco.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:08:38</itunes:duration>
@@ -1271,7 +1271,7 @@ südliche Insel:</li>
       <pubDate>Tue, 23 Dec 2014 16:17:47 GMT</pubDate>
       <geo:lat>53.9</geo:lat>
       <geo:long>27.566667</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost71-weissrussland.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/weissrussland-und-baltikum.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:22:30</itunes:duration>
@@ -1302,7 +1302,7 @@ südliche Insel:</li>
       <pubDate>Sun, 23 Nov 2014 05:55:54 GMT</pubDate>
       <geo:lat>59.329323</geo:lat>
       <geo:long>18.068581</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost70-schweden.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/schweden.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:08:50</itunes:duration>
@@ -1327,7 +1327,7 @@ südliche Insel:</li>
       <pubDate>Tue, 11 Nov 2014 07:34:16 GMT</pubDate>
       <geo:lat>21.543333</geo:lat>
       <geo:long>39.172778</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost69-saudiarabien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/saudi-arabien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:30:43</itunes:duration>
@@ -1352,7 +1352,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Sun, 19 Oct 2014 00:47:11 GMT</pubDate>
       <geo:lat>67.008611</geo:lat>
       <geo:long>-50.689167</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost68-groenland.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/groenland.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:04:28</itunes:duration>
@@ -1374,7 +1374,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Wed, 01 Oct 2014 04:22:05 GMT</pubDate>
       <geo:lat>4.175278</geo:lat>
       <geo:long>73.508889</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost67-malediven.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malediven.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:00:40</itunes:duration>
@@ -1404,7 +1404,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Sat, 13 Sep 2014 05:52:14 GMT</pubDate>
       <geo:lat>64.133333</geo:lat>
       <geo:long>-21.933333</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost66-island.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/island.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:42:55</itunes:duration>
@@ -1417,7 +1417,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Wed, 06 Aug 2014 04:08:09 GMT</pubDate>
       <geo:lat>43.653226</geo:lat>
       <geo:long>-79.383184</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost65-kanada.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/auswandern-nach-kanada.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:35:25</itunes:duration>
@@ -1444,7 +1444,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Wed, 09 Jul 2014 18:37:45 GMT</pubDate>
       <geo:lat>16.8</geo:lat>
       <geo:long>96.15</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost64-myanmar.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/myanmar.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:43:41</itunes:duration>
@@ -1457,7 +1457,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Wed, 18 Jun 2014 10:17:55 GMT</pubDate>
       <geo:lat>-17.8</geo:lat>
       <geo:long>177.416667</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost63-fiji.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/fiji.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:18:24</itunes:duration>
@@ -1488,7 +1488,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Tue, 27 May 2014 10:12:43 GMT</pubDate>
       <geo:lat>-7.26424</geo:lat>
       <geo:long>112.745579</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost62-indonesien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/indonesien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:12:34</itunes:duration>
@@ -1515,7 +1515,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Tue, 18 Mar 2014 08:59:25 GMT</pubDate>
       <geo:lat>50.4501</geo:lat>
       <geo:long>30.5234</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost61-kiew.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kiew.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:07:09</itunes:duration>
@@ -1538,7 +1538,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Fri, 07 Mar 2014 16:25:39 GMT</pubDate>
       <geo:lat>51.405556</geo:lat>
       <geo:long>30.056944</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost60-tschernobyl.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/tschernobyl.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>58:58</itunes:duration>
@@ -1568,7 +1568,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Tue, 25 Feb 2014 11:40:59 GMT</pubDate>
       <geo:lat>25.788969</geo:lat>
       <geo:long>-80.226439</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost59-70000tons.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/70000-tons-of-metal.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:08:04</itunes:duration>
@@ -1603,7 +1603,7 @@ Den Bericht eines Mitwanderers von Pascal könnt ihr <a href="http://www.koerb.d
       <pubDate>Sun, 09 Feb 2014 11:04:58 GMT</pubDate>
       <geo:lat>47.123</geo:lat>
       <geo:long>9.3143</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost58-schweiz.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/schweiz.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:18:17</itunes:duration>
@@ -1633,7 +1633,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Sat, 25 Jan 2014 23:46:12 GMT</pubDate>
       <geo:lat>27.44261</geo:lat>
       <geo:long>89.667328</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost57-bhutan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/bhutan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:06:02</itunes:duration>
@@ -1691,7 +1691,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Tue, 17 Dec 2013 21:40:09 GMT</pubDate>
       <geo:lat>-3.990138</geo:lat>
       <geo:long>-79.20446</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost56-ecuador.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/ecuador.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:33:26</itunes:duration>
@@ -1715,7 +1715,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Mon, 25 Nov 2013 15:17:03 GMT</pubDate>
       <geo:lat>12.971599</geo:lat>
       <geo:long>77.594563</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost55-indien2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/indien-2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:51:12</itunes:duration>
@@ -1785,7 +1785,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Mon, 28 Oct 2013 09:59:21 GMT</pubDate>
       <geo:lat>42.682435</geo:lat>
       <geo:long>21.071777</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost54-balkan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/balkan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:56:58</itunes:duration>
@@ -1810,7 +1810,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Tue, 08 Oct 2013 19:17:52 GMT</pubDate>
       <geo:lat>25.271139</geo:lat>
       <geo:long>55.307485</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost53-dubai.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/dubai.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:08:55</itunes:duration>
@@ -1843,7 +1843,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Tue, 03 Sep 2013 20:24:53 GMT</pubDate>
       <geo:lat>8.994269</geo:lat>
       <geo:long>-79.518792</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost52-panama.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/panama.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:06:21</itunes:duration>
@@ -1882,7 +1882,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Sun, 18 Aug 2013 19:56:33 GMT</pubDate>
       <geo:lat>41.00527</geo:lat>
       <geo:long>28.97696</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost51-istanbul.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/istanbul.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:03:18</itunes:duration>
@@ -1943,7 +1943,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Wed, 17 Jul 2013 17:22:27 GMT</pubDate>
       <geo:lat>38.725299</geo:lat>
       <geo:long>-9.150036</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost50-portugal.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/portugal.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:00:53</itunes:duration>
@@ -1978,7 +1978,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Wed, 22 May 2013 19:16:13 GMT</pubDate>
       <geo:lat>53.349805</geo:lat>
       <geo:long>-6.26031</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost49-dublin.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/dublin.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:22:22</itunes:duration>
@@ -2018,7 +2018,7 @@ Photo credit: (cc-by-nc-sa) by <a href="http://www.marenvandenberg.de">Sven Tetz
       <pubDate>Sat, 04 May 2013 20:31:36 GMT</pubDate>
       <geo:lat>-41.133472</geo:lat>
       <geo:long>-71.310278</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost48-argentinien-chile.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/argentinien-chile.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:21:51</itunes:duration>
@@ -2052,7 +2052,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sat, 20 Apr 2013 20:03:02 GMT</pubDate>
       <geo:lat>-4.331667</geo:lat>
       <geo:long>15.313889</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost47-kongo.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kongo.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:04:04</itunes:duration>
@@ -2063,7 +2063,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <link>https://luftpost-podcast.de/digitale-nomaden</link>
       <guid isPermaLink="false">http://luftpost-podcast.de/?p=660</guid>
       <pubDate>Sun, 07 Apr 2013 21:04:11 GMT</pubDate>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost46-digitalenomaden.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/digitale-nomaden.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:00:30</itunes:duration>
@@ -2105,7 +2105,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <link>https://luftpost-podcast.de/travel-on-toast</link>
       <guid isPermaLink="false">http://luftpost-podcast.de/?p=649</guid>
       <pubDate>Fri, 22 Mar 2013 17:58:52 GMT</pubDate>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost45-travelontoast.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/travel-on-toast.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>59:38</itunes:duration>
@@ -2149,7 +2149,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sat, 23 Feb 2013 22:35:56 GMT</pubDate>
       <geo:lat>6.927079</geo:lat>
       <geo:long>79.861243</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost44-srilanka.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/sri-lanka.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:31:42</itunes:duration>
@@ -2214,7 +2214,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sat, 02 Feb 2013 14:21:25 GMT</pubDate>
       <geo:lat>-33.867487</geo:lat>
       <geo:long>151.20699</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost43-australien2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/australien-2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:25:11</itunes:duration>
@@ -2227,7 +2227,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Wed, 02 Jan 2013 15:19:43 GMT</pubDate>
       <geo:lat>21.306</geo:lat>
       <geo:long>-157.855</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost42-hawaii.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/hawaii.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>56:03</itunes:duration>
@@ -2289,7 +2289,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sat, 15 Dec 2012 11:32:25 GMT</pubDate>
       <geo:lat>40.65</geo:lat>
       <geo:long>-73.95</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost41-newyork2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/new-york-2-washington.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>3:02:22</itunes:duration>
@@ -2317,7 +2317,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sat, 08 Dec 2012 13:57:56 GMT</pubDate>
       <geo:lat>68.138851</geo:lat>
       <geo:long>13.55712</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost40-norwegen2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/norwegen-2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:02:11</itunes:duration>
@@ -2375,7 +2375,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Wed, 28 Nov 2012 17:07:37 GMT</pubDate>
       <geo:lat>-36.8484597</geo:lat>
       <geo:long>174.7633315</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost39-neuseeland.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/neuseeland.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:44:17</itunes:duration>
@@ -2412,7 +2412,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sun, 04 Nov 2012 12:27:16 GMT</pubDate>
       <geo:lat>22.3363608</geo:lat>
       <geo:long>103.8437852</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost38-vietnam4.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/vietnam-4.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:01:36</itunes:duration>
@@ -2463,7 +2463,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Sun, 28 Oct 2012 14:47:13 GMT</pubDate>
       <geo:lat>40.183333</geo:lat>
       <geo:long>44.516667</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost37-armenien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/armenien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:50:05</itunes:duration>
@@ -2508,7 +2508,7 @@ Photo by <a href="http://www.flickr.com/photos/osucommons/4904373893/">OSU Speci
       <pubDate>Fri, 12 Oct 2012 15:25:52 GMT</pubDate>
       <geo:lat>56.0462031</geo:lat>
       <geo:long>24.9042872</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost36-showmetheworld.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/show-me-the-world.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:35:06</itunes:duration>
@@ -2538,7 +2538,7 @@ Photo by Javier Martin Espartosa</li>
       <pubDate>Tue, 02 Oct 2012 10:13:16 GMT</pubDate>
       <geo:lat>41.2666667</geo:lat>
       <geo:long>69.2166667</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost35-usbekistan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/usbekistan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:07:44</itunes:duration>
@@ -2579,7 +2579,7 @@ Photo by Javier Martin Espartosa</li>
       <pubDate>Wed, 26 Sep 2012 11:22:41 GMT</pubDate>
       <geo:lat>21.04</geo:lat>
       <geo:long>105.855</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost34-vietnam3.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/live-vietnam-3.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>47:09</itunes:duration>
@@ -2663,7 +2663,7 @@ Photo (cc) by Monittola Danilo</li>
       <pubDate>Fri, 21 Sep 2012 16:07:37 GMT</pubDate>
       <geo:lat>59.9138688</geo:lat>
       <geo:long>10.7522454</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost33-norwegen.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/norwegen.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:10:36</itunes:duration>
@@ -2697,7 +2697,7 @@ Photo (cc) by Monittola Danilo</li>
       <pubDate>Sun, 16 Sep 2012 11:27:59 GMT</pubDate>
       <geo:lat>11.9404192</geo:lat>
       <geo:long>108.4583132</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost32-vietnam2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/live-vietnam-2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>48:02</itunes:duration>
@@ -2716,7 +2716,7 @@ Photo (cc) by Monittola Danilo</li>
       <pubDate>Sat, 08 Sep 2012 13:02:29 GMT</pubDate>
       <geo:lat>10.3765284</geo:lat>
       <geo:long>106.3438891</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost31-vietnam.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/live-vietnam-1.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>24:43</itunes:duration>
@@ -2795,14 +2795,14 @@ Photo (cc) by Monittola Danilo</li>
       <pubDate>Sun, 19 Aug 2012 09:45:14 GMT</pubDate>
       <geo:lat>31.230393</geo:lat>
       <geo:long>121.473704</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost30-china-taiwan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/china-taiwan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:18:51</itunes:duration>
     </item>
     <item>
       <title>Australien</title>
-      <description><![CDATA[<p>Lange hat es gedauert, bis eine Episode über den roten Kontinent erschienen ist. Dafür bekommt ihr direkt die geballte Ladung: In über 3 Stunden erzählt Rene von Work&#x26;Travel in Down Under. Er hat fast den gesamten Kontinent gesehen, ist mit dem Auto durch die Wüste gefahren und war am Great Barrier Reef tauchen. Auch als Enhanced-Podcast mit Kapitelmarken verfügbar: <a href="http://luftpost-podcast.de/media/luftpost29-australien.m4a">M4A</a>.</p>
+      <description><![CDATA[<p>Lange hat es gedauert, bis eine Episode über den roten Kontinent erschienen ist. Dafür bekommt ihr direkt die geballte Ladung: In über 3 Stunden erzählt Rene von Work&#x26;Travel in Down Under. Er hat fast den gesamten Kontinent gesehen, ist mit dem Auto durch die Wüste gefahren und war am Great Barrier Reef tauchen. Auch als Enhanced-Podcast mit Kapitelmarken verfügbar: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/australien.m4a).</p>
 <ul>
 <li>00:00:00 Einleitung und Idee</li>
 <li>00:02:40 Planung, Visum, Agenturen, Arbeiten</li>
@@ -2964,7 +2964,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Mon, 02 Jul 2012 22:33:13 GMT</pubDate>
       <geo:lat>-31.953513</geo:lat>
       <geo:long>115.857047</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost29-australien.m4a" length="0" type="audio/mp4"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/australien.m4a" length="0" type="audio/mp4"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>3:09:30</itunes:duration>
@@ -3016,7 +3016,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Tue, 19 Jun 2012 13:30:32 GMT</pubDate>
       <geo:lat>51.5073346</geo:lat>
       <geo:long>-0.1276831</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost28-london.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/london.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:25:46</itunes:duration>
@@ -3048,7 +3048,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Fri, 01 Jun 2012 17:39:37 GMT</pubDate>
       <geo:lat>-22.9035393</geo:lat>
       <geo:long>-43.2095869</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost27-brasilien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/brasilien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:25:46</itunes:duration>
@@ -3092,7 +3092,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Sun, 20 May 2012 11:07:17 GMT</pubDate>
       <geo:lat>30.0444196</geo:lat>
       <geo:long>31.2357116</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost26-aegypten.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/agypten.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:16:12</itunes:duration>
@@ -3110,7 +3110,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Fri, 04 May 2012 15:30:48 GMT</pubDate>
       <geo:lat>40.754722</geo:lat>
       <geo:long>-119.236389</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost25-burningman.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/burning-man.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:05:45</itunes:duration>
@@ -3179,7 +3179,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Fri, 06 Apr 2012 19:38:50 GMT</pubDate>
       <geo:lat>21.0333333</geo:lat>
       <geo:long>105.85</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost24-vietnam.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/vietnam.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>3:34:50</itunes:duration>
@@ -3232,7 +3232,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Fri, 24 Feb 2012 19:47:08 GMT</pubDate>
       <geo:lat>34.802075</geo:lat>
       <geo:long>38.996815</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost23-syrien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/syrien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:44:05</itunes:duration>
@@ -3252,7 +3252,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Thu, 23 Feb 2012 10:33:04 GMT</pubDate>
       <geo:lat>51.964577109947506</geo:lat>
       <geo:long>85.869140625</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost22-sibirien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/sibirien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:30:04</itunes:duration>
@@ -3281,7 +3281,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Sat, 28 Jan 2012 14:58:56 GMT</pubDate>
       <geo:lat>39.4702393</geo:lat>
       <geo:long>-0.3768049</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost21-spanien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/spanien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:06:45</itunes:duration>
@@ -3377,7 +3377,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Fri, 23 Dec 2011 19:32:05 GMT</pubDate>
       <geo:lat>39.9042</geo:lat>
       <geo:long>116.4074</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost20-china.mp3" length="0" type="audio/mp4"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/china.mp3" length="0" type="audio/mp4"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>2:13:58</itunes:duration>
@@ -3403,7 +3403,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Fri, 04 Nov 2011 17:42:35 GMT</pubDate>
       <geo:lat>35.6961111</geo:lat>
       <geo:long>51.4230556</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost19-iran.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/iran.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:19:48</itunes:duration>
@@ -3426,7 +3426,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Sat, 22 Oct 2011 14:36:59 GMT</pubDate>
       <geo:lat>52.1054611</geo:lat>
       <geo:long>-119.6489096</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost18-kanada.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kanada.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:00:10</itunes:duration>
@@ -3468,7 +3468,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Sun, 18 Sep 2011 12:50:57 GMT</pubDate>
       <geo:lat>40.4166909</geo:lat>
       <geo:long>-3.7003454</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost17-weltjugendtag.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/weltjugendtag-madrid.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>56:04</itunes:duration>
@@ -3509,7 +3509,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Mon, 22 Aug 2011 15:40:38 GMT</pubDate>
       <geo:lat>39.158333</geo:lat>
       <geo:long>127.441111</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost16-nordkorea3.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nordkorea3.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:18:42</itunes:duration>
@@ -3549,7 +3549,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Tue, 16 Aug 2011 16:52:45 GMT</pubDate>
       <geo:lat>39.031859</geo:lat>
       <geo:long>125.753765</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost16-nordkorea2.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nordkorea2.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:28:47</itunes:duration>
@@ -3562,7 +3562,7 @@ Rene hat außerdem noch viele Links gesammelt, die Australienreisenden sicherlic
       <pubDate>Mon, 08 Aug 2011 02:39:51 GMT</pubDate>
       <geo:lat>39.946068593571304</geo:lat>
       <geo:long>116.40096187591553</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost16-nordkorea1.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/nordkorea1.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>29:16</itunes:duration>
@@ -3597,7 +3597,7 @@ Fotos zur Reise gibt es auf <a href="http://www.flickr.com/photos/danielbuechele
       <pubDate>Sat, 06 Aug 2011 10:26:59 GMT</pubDate>
       <geo:lat>11.558831</geo:lat>
       <geo:long>104.917445</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost15-kambodscha.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kambodscha.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:37:34</itunes:duration>
@@ -3608,7 +3608,7 @@ Fotos zur Reise gibt es auf <a href="http://www.flickr.com/photos/danielbuechele
       <link>https://luftpost-podcast.de/looking-behind-the-wall</link>
       <guid isPermaLink="false">http://luftpost-podcast.de/?p=310</guid>
       <pubDate>Fri, 05 Aug 2011 07:14:29 GMT</pubDate>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost14-behindthewall.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/looking-behind-the-wall.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>04:33</itunes:duration>
@@ -3651,7 +3651,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Wed, 08 Jun 2011 21:54:55 GMT</pubDate>
       <geo:lat>18.787747</geo:lat>
       <geo:long>98.993128</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost13-thailand.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/thailand.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:57:46</itunes:duration>
@@ -3664,7 +3664,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Sun, 15 May 2011 10:37:05 GMT</pubDate>
       <geo:lat>-4.05</geo:lat>
       <geo:long>39.6666667</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost12-kenia.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kenia.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:09:02</itunes:duration>
@@ -3718,7 +3718,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Mon, 02 May 2011 00:09:26 GMT</pubDate>
       <geo:lat>20.5930556</geo:lat>
       <geo:long>-100.3922222</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost11-mexiko.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/mexiko.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:12:56</itunes:duration>
@@ -3768,7 +3768,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Wed, 30 Mar 2011 09:53:20 GMT</pubDate>
       <geo:lat>28.635308</geo:lat>
       <geo:long>77.22496</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost09-indien.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/indien.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:19:59</itunes:duration>
@@ -3820,7 +3820,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Tue, 15 Mar 2011 19:01:01 GMT</pubDate>
       <geo:lat>-17.5602465032949</geo:lat>
       <geo:long>25.224609375</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost08-afrika.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/suedliches-afrika.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:26:40</itunes:duration>
@@ -3860,7 +3860,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <link>https://luftpost-podcast.de/couchsurfing</link>
       <guid isPermaLink="false">http://luftpost-podcast.de/?p=180</guid>
       <pubDate>Mon, 28 Feb 2011 21:02:41 GMT</pubDate>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost07-couchsurfing.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/couchsurfing.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:23:59</itunes:duration>
@@ -3907,7 +3907,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Tue, 15 Feb 2011 16:41:20 GMT</pubDate>
       <geo:lat>59.4388619</geo:lat>
       <geo:long>24.7544715</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost06-estland.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/estland.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>57:36</itunes:duration>
@@ -3943,7 +3943,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Sat, 29 Jan 2011 15:24:58 GMT</pubDate>
       <geo:lat>12.364637</geo:lat>
       <geo:long>-1.533864</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost05-burkinafaso.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/burkinafaso.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>48:19</itunes:duration>
@@ -3992,7 +3992,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Sun, 16 Jan 2011 19:46:11 GMT</pubDate>
       <geo:lat>40.7143528</geo:lat>
       <geo:long>-74.0059731</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost04-newyork.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/newyork.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:30:24</itunes:duration>
@@ -4026,7 +4026,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Thu, 30 Dec 2010 13:10:19 GMT</pubDate>
       <geo:lat>-12.0433333</geo:lat>
       <geo:long>-77.0283333</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost03-peru.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/peru.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:46:20</itunes:duration>
@@ -4070,7 +4070,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Mon, 06 Dec 2010 21:35:17 GMT</pubDate>
       <geo:lat>35.6894875</geo:lat>
       <geo:long>139.6917064</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost02-japan.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/japan.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:54:21</itunes:duration>
@@ -4095,7 +4095,7 @@ Und dieses kleine <a href="http://www.youtube.com/watch?v=uKBWcP%5FrnOQ">Video</
       <pubDate>Thu, 02 Dec 2010 10:47:42 GMT</pubDate>
       <geo:lat>37.566535</geo:lat>
       <geo:long>126.9779692</geo:long>
-      <enclosure url="http://luftpost-podcast.de/media/luftpost01-suedkorea.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/suedkorea.mp3" length="0" type="audio/mpeg"/>
       <itunes:author>Daniel Büchele</itunes:author>
       <itunes:image href="https://luftpost-podcast.de/cover.png"/>
       <itunes:duration>1:42:43</itunes:duration>

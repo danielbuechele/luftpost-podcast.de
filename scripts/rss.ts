@@ -30,9 +30,8 @@ import {fileURLToPath} from 'url';
     ttl: 60,
     custom_namespaces: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+      spotify: 'http://www.spotify.com/ns/rss',
     },
-    // @ts-ignore
-    custom_namespaces: {spotify: 'http://www.spotify.com/ns/rss'},
     custom_elements: [
       {'spotify:countryOfOrigin': 'de at ch'},
       {'itunes:author': db},
