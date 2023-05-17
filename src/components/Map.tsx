@@ -21,12 +21,41 @@ type Props = {
 
 const clusterMaxZoom = 14;
 const clusterRadius = 20;
-const initialViewState = {
+const DEFAULT_VIEW_STATE = {
   longitude: 0,
   latitude: 25,
   zoom: 2,
 };
 const bbox: GeoJSON.BBox = [-180, -90, 180, 90];
+
+const zoomForEpisode = (
+  sc: Supercluster<EpisodeT, Supercluster.AnyProps>,
+  episode: EpisodeT,
+  currentZoom: number = 4,
+) => {
+  let zoom = currentZoom;
+
+  if (!episode.latitude || !episode.longitude) {
+    return DEFAULT_VIEW_STATE.zoom;
+  }
+  const cluster = sc
+    .getClusters(
+      [
+        episode.longitude - 0.1,
+        episode.latitude - 0.1,
+        episode.longitude + 0.1,
+        episode.latitude + 0.1,
+      ],
+      zoom,
+    )
+    .at(0);
+
+  if (cluster && (cluster.properties as any).cluster) {
+    return sc.getClusterExpansionZoom(cluster.id as number);
+  }
+
+  return Math.max(currentZoom, 4);
+};
 
 function Map(props: Props) {
   const mapRef = useRef<MapRef>(null);
@@ -51,6 +80,19 @@ function Map(props: Props) {
     [],
   );
 
+  const initialViewState = useMemo(() => {
+    const episode = allEpisodes.find((e) => e._id === props.selectedEpisodeId);
+    if (episode?.latitude && episode?.longitude) {
+      return {
+        zoom: zoomForEpisode(sc, episode),
+        latitude: episode.latitude,
+        longitude: episode.longitude,
+      };
+    }
+    return DEFAULT_VIEW_STATE;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sc]);
+
   const [points, setPoints] = useState<
     Array<
       | Supercluster.PointFeature<EpisodeT & {cluster?: false}>
@@ -66,17 +108,24 @@ function Map(props: Props) {
 
   useEffect(() => {
     const episode = allEpisodes.find((e) => e._id === props.selectedEpisodeId);
+    const currentZoom = mapRef.current?.getZoom();
+    let zoom = DEFAULT_VIEW_STATE.zoom;
+
+    if (episode && currentZoom) {
+      zoom = zoomForEpisode(sc, episode, currentZoom);
+    }
 
     mapRef.current?.flyTo({
+      zoom,
       center: episode
-        ? [episode.longitude!, episode.latitude!]
+        ? [
+            episode.longitude ?? DEFAULT_VIEW_STATE.longitude,
+            episode.latitude ?? DEFAULT_VIEW_STATE.latitude,
+          ]
         : [initialViewState.longitude, initialViewState.latitude],
-      zoom:
-        episode == null
-          ? initialViewState.zoom
-          : Math.max(mapRef.current?.getZoom(), initialViewState.zoom),
     });
-  }, [props.selectedEpisodeId]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props.selectedEpisodeId, sc]);
 
   const {push} = useRouter();
 

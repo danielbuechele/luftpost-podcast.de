@@ -13,10 +13,17 @@ import Image from 'next/image';
 import Body from '@/components/Body';
 import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
+import Flag from '@/components/Flag';
 
 type Props =
   | {contentType: 'Episode'; episode: EpisodeT}
   | {contentType: 'Home'; allEpisodes: EpisodeT[]}
+  | {
+      contentType: 'AllEpisodes';
+      allEpisodes: Array<
+        Pick<EpisodeT, 'slug' | 'title'> & {countryCode: null | string}
+      >;
+    }
   | {contentType: 'Page'; page: PageT};
 
 export default function ContentPage(props: Props) {
@@ -39,6 +46,22 @@ export default function ContentPage(props: Props) {
           <title>{props.page.title + ' - ' + 'Luftpost Podcast'}</title>
         </Head>
         <Body title={props.page.title}>{props.page.body}</Body>
+      </Page>
+    );
+  } else if (props.contentType === 'AllEpisodes') {
+    return (
+      <Page aside={<Map />}>
+        <Head>
+          <title>Alle Episoden - Luftpost Podcast</title>
+        </Head>
+        <div className={styles.episodeGrid}>
+          {props.allEpisodes.map((e) => (
+            <Link className={styles.episode} href={e.slug} key={e.slug}>
+              <Flag countryCode={e.countryCode} />
+              <h2>{e.title}</h2>
+            </Link>
+          ))}
+        </div>
       </Page>
     );
   } else if (props.contentType === 'Episode') {
@@ -77,6 +100,21 @@ export default function ContentPage(props: Props) {
 export const getStaticProps: GetStaticProps<Props, {slug: string}> = async (
   context,
 ) => {
+  if (context.params?.slug === 'alle-episoden') {
+    return {
+      props: {
+        contentType: 'AllEpisodes',
+        allEpisodes: allEpisodes
+          .sort((a, b) => (a.title > b.title ? 1 : -1))
+          .map(({slug, title, countryCode = null}) => ({
+            slug,
+            title,
+            countryCode,
+          })),
+      },
+    };
+  }
+
   const page = allPages.find((p) => p.slug === context.params?.slug);
 
   if (page) {
@@ -114,6 +152,8 @@ export const getStaticProps: GetStaticProps<Props, {slug: string}> = async (
 };
 
 export const getStaticPaths: GetStaticPaths = async () => ({
-  paths: [...allPages, ...allEpisodes].map((e) => '/' + e.slug),
+  paths: [{slug: 'alle-episoden'}, ...allPages, ...allEpisodes].map(
+    (e) => '/' + e.slug,
+  ),
   fallback: false,
 });

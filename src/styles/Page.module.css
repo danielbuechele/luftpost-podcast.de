@@ -28,6 +28,7 @@
   right: 50%;
   bottom: 0;
   top: 0;
+  background-color: hsl(196, 61%, 45%);
 }
 
 @media screen and (max-width: 1024px) {

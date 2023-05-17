@@ -1,4 +1,3 @@
-// import allEpisodes from '../.contentlayer/generated/Episode/_index.json';
 import RSS from 'rss';
 import fs from 'fs/promises';
 import {join, dirname} from 'path';
@@ -89,7 +88,6 @@ import {decodeHTML} from 'entities';
       date: i.publishedAt,
       lat: i.latitude,
       long: i.longitude,
-      // enclosure: {url: i.mediaUrl, length: i.byteSize, type: i.mimeType},
       custom_elements: [
         {'content:encoded': {_cdata: i.body.html}},
         {'itunes:summary': summary(i.body.html, 4000)},
