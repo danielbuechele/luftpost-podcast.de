@@ -12,7 +12,7 @@ Ich lebe in London und falls du nicht zufällig auch hier bist, ist es wohl am e
 1. Schreibe mir eine Mail an [daniel@buechele.cc](mailto:daniel@buechele.cc) mit ein paar Sätzen zu deiner Reise und wir vereinbaren einen Termin für die Aufnahme. (Sorry, falls ich mal etwas länger brauche um meine Mails zu beantworten).
 1. Du benötigst ein Mikrofon (die in Laptops verbauten Mikrofone sind meistens nicht ausreichend) und Kopfhörer
 1. Für die Aufnahme schicke ich dir einen Link zu [Zencastr](https://zencastr.com). Den kannst du einfach im Browser öffnen und wir können darüber telefonieren und aufnehmen. Du musst nichts weiter installieren.
-1. Zur Vorbereitung kannst du dir gerne ein paar Notitzen machen worüber du sprechen möchtest und sie mir zuschicken. Das ist oft hilfreich, damit wir dann nichts vergessen, aber nicht zwingend notwendig.
+1. Zur Vorbereitung kannst du dir gerne ein paar Notizen machen worüber du sprechen möchtest und sie mir zuschicken. Das ist oft hilfreich, damit wir dann nichts vergessen, aber nicht zwingend notwendig.
 
 ## Hast du schon etwas über…?
 
