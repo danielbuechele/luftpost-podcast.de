@@ -3,8 +3,8 @@ title: Kamtschatka
 publishedAt: Sun Jul 9 2023 13:42:00 +0000
 guest: '[Martin](https://fernwind.de)'
 countryCode: ru
-latitude:
-longitude:
+latitude: 53.012489
+longitude: 158.651001
 durationSeconds: 3689
 byteSize: 84709212
 mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kamtschatka.mp3
