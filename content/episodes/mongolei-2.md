@@ -3,8 +3,8 @@ title: Mongolei
 publishedAt: Tue Jun 20 2023 22:26:48 +0000
 guest: '[Sonja Piontek](https://www.sonjapiontek.com)'
 countryCode: mn
-latitude:
-longitude:
+latitude: 46.860191
+longitude: 100.784735
 durationSeconds: 3240
 byteSize: 64955123
 mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/mongolei-2.mp3
