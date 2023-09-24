@@ -9,9 +9,9 @@
       <link>https://luftpost-podcast.de</link>
     </image>
     <generator>RSS for Node</generator>
-    <lastBuildDate>Mon, 15 May 2023 22:26:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 Sep 2023 15:02:11 GMT</lastBuildDate>
     <atom:link href="https://luftpost-podcast.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Apr 2023 22:35:07 GMT</pubDate>
+    <pubDate>Sun, 24 Sep 2023 15:59:57 GMT</pubDate>
     <copyright><![CDATA[&#xA9; 2023 Daniel Büchele]]></copyright>
     <language><![CDATA[de-DE]]></language>
     <managingEditor><![CDATA[daniel@buechele.cc (Daniel Büchele)]]></managingEditor>
@@ -31,6 +31,77 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <item>
+      <title>Radreisen</title>
+      <description><![CDATA[Diesmal nicht zu einem speziellen Land, sondern zu einer speziellen Reiseform. Christoph erzählt in dieser Episode wie er mit seinem Liegerad quer durch Europa gereist ist. Von Spanien nach Deutschland, innerhalb Deutschlands und in die Slowakei.
+Angefangen hat es für ihn als Pandemie-freundliche Reiseart, aber schnell hat er gefallen daran gefunden und weitere Reisen unternommen. Wir sprechen über Vorbereitungen, Gepäck und warum ein Liegerad angenehmer sein kann als ein normales Rad, bevor wir dann die Route von Madrid nach München inklusive Alpenüberquerung nachverfolgen und am Donau-Radweg über Wien nach Bratislava fahren.]]></description>
+      <link>https://luftpost-podcast.de/radreisen</link>
+      <guid isPermaLink="true">https://luftpost-podcast.de/radreisen</guid>
+      <pubDate>Sun, 24 Sep 2023 15:59:57 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Diesmal nicht zu einem speziellen Land, sondern zu einer speziellen Reiseform. Christoph erzählt in dieser Episode wie er mit seinem Liegerad quer durch Europa gereist ist. Von Spanien nach Deutschland, innerhalb Deutschlands und in die Slowakei.</p>
+<p>Angefangen hat es für ihn als Pandemie-freundliche Reiseart, aber schnell hat er gefallen daran gefunden und weitere Reisen unternommen. Wir sprechen über Vorbereitungen, Gepäck und warum ein Liegerad angenehmer sein kann als ein normales Rad, bevor wir dann die Route von Madrid nach München inklusive Alpenüberquerung nachverfolgen und am Donau-Radweg über Wien nach Bratislava fahren.</p>]]></content:encoded>
+      <itunes:summary>Diesmal nicht zu einem speziellen Land, sondern zu einer speziellen Reiseform. Christoph erzählt in dieser Episode wie er mit seinem Liegerad quer durch Europa gereist ist. Von Spanien nach Deutschland, innerhalb Deutschlands und in die Slowakei.
+Angefangen hat es für ihn als Pandemie-freundliche Reiseart, aber schnell hat er gefallen daran gefunden und weitere Reisen unternommen. Wir sprechen über Vorbereitungen, Gepäck und warum ein Liegerad angenehmer sein kann als ein normales Rad, bevor wir dann die Route von Madrid nach München inklusive Alpenüberquerung nachverfolgen und am Donau-Radweg über Wien nach Bratislava fahren.</itunes:summary>
+      <itunes:subtitle>Diesmal nicht zu einem speziellen Land, sondern zu einer speziellen Reiseform. Christoph erzählt in dieser Episode wie er mit seinem Liegerad quer durch Europa gereist ist. Von Spanien nach Deutschland, innerhalb Deutschlands und in die Slowakei. Ang…</itunes:subtitle>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/radreisen.mp3" length="47590182" type="audio/mpeg"/>
+      <itunes:author>Daniel Büchele</itunes:author>
+      <itunes:image href="https://luftpost-podcast.de/cover.png"/>
+      <itunes:duration>56:04</itunes:duration>
+    </item>
+    <item>
+      <title>Kamtschatka</title>
+      <description><![CDATA[Ähnlich wie Timbuktu is Kamtschatka für mich ein Synonym für “ganz weit weg”, aber wer oder was ist Kamtschatka wirklich? Martin von Fernwind organisiert Expeditionen zur Halbinsel, die so weit im Osten Russlands liegt, dass sie schon fast wieder im Westen ist. In Zusammenarbeit mit einem Botaniker katalogisierten sie die lokale Flora. Das besondere daran ist, dass Martin auch Touristen die Möglichkeit bietet an diesen Expeditionen teilzunehmen.
+In der Episode sprechen wir über die Vorbereitung und Planung solch einer Expedition und die Bären, Vulkane und endlose Weite mitten im Nirgendwo, die Martin auf der zweiwöchigen Wanderung erkundet hat. Bilder und ein Reisebericht finden sich auch auf der Fernwind Webseite.]]></description>
+      <link>https://luftpost-podcast.de/kamtschatka</link>
+      <guid isPermaLink="true">https://luftpost-podcast.de/kamtschatka</guid>
+      <pubDate>Sun, 09 Jul 2023 13:42:00 GMT</pubDate>
+      <geo:lat>53.012489</geo:lat>
+      <geo:long>158.651001</geo:long>
+      <content:encoded><![CDATA[<p>Ähnlich wie Timbuktu is Kamtschatka für mich ein Synonym für “ganz weit weg”, aber wer oder was ist Kamtschatka wirklich? Martin von <a href="https://fernwind.de/">Fernwind</a> organisiert Expeditionen zur Halbinsel, die so weit im Osten Russlands liegt, dass sie schon fast wieder im Westen ist. In Zusammenarbeit mit einem Botaniker katalogisierten sie die lokale Flora. Das besondere daran ist, dass Martin auch Touristen die Möglichkeit bietet an diesen Expeditionen teilzunehmen.
+In der Episode sprechen wir über die Vorbereitung und Planung solch einer Expedition und die Bären, Vulkane und endlose Weite mitten im Nirgendwo, die Martin auf der zweiwöchigen Wanderung erkundet hat. Bilder und ein Reisebericht finden sich auch auf der <a href="https://fernwind.de/rueckblick/kamtschatka-2021/">Fernwind Webseite</a>.</p>]]></content:encoded>
+      <itunes:summary>Ähnlich wie Timbuktu is Kamtschatka für mich ein Synonym für “ganz weit weg”, aber wer oder was ist Kamtschatka wirklich? Martin von Fernwind organisiert Expeditionen zur Halbinsel, die so weit im Osten Russlands liegt, dass sie schon fast wieder im Westen ist. In Zusammenarbeit mit einem Botaniker katalogisierten sie die lokale Flora. Das besondere daran ist, dass Martin auch Touristen die Möglichkeit bietet an diesen Expeditionen teilzunehmen.
+In der Episode sprechen wir über die Vorbereitung und Planung solch einer Expedition und die Bären, Vulkane und endlose Weite mitten im Nirgendwo, die Martin auf der zweiwöchigen Wanderung erkundet hat. Bilder und ein Reisebericht finden sich auch auf der Fernwind Webseite.</itunes:summary>
+      <itunes:subtitle>Ähnlich wie Timbuktu is Kamtschatka für mich ein Synonym für “ganz weit weg”, aber wer oder was ist Kamtschatka wirklich? Martin von Fernwind organisiert Expeditionen zur Halbinsel, die so weit im Osten Russlands liegt, dass sie schon fast wieder im …</itunes:subtitle>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kamtschatka.mp3" length="84709212" type="audio/mpeg"/>
+      <itunes:author>Daniel Büchele</itunes:author>
+      <itunes:image href="https://luftpost-podcast.de/cover.png"/>
+      <itunes:duration>1:01:29</itunes:duration>
+    </item>
+    <item>
+      <title>Mongolei</title>
+      <description><![CDATA[Ich sprach mit der Autorin Sonja Piontek über ihr Herzensland, die Mongolei. Sie reiste schon etliche Mal dort hin und verbrachte viel Zeit mit lokalen Nomadenfamilien. In diesem Jahr veranstaltet sie sogar ein Coaching-Retreat um auch anderen Menschen das Land, die Leute und ihre Lebensweisen näher zubringen.
+Ihre Reise starten üblicherweise in der Hauptstadt Ulaanbaatar, doch dann geht es schnell in die unendlich weiten Wüsten, Steppen und Berge. Wir sprechen über Adlerjäger, Jurtenbau, den harten Winter, das nomadische Leben mit den Tieren und vieles mehr.]]></description>
+      <link>https://luftpost-podcast.de/mongolei-2</link>
+      <guid isPermaLink="true">https://luftpost-podcast.de/mongolei-2</guid>
+      <pubDate>Tue, 20 Jun 2023 22:26:48 GMT</pubDate>
+      <geo:lat>46.860191</geo:lat>
+      <geo:long>100.784735</geo:long>
+      <content:encoded><![CDATA[<p>Ich sprach mit der Autorin Sonja Piontek über ihr Herzensland, die Mongolei. Sie reiste schon etliche Mal dort hin und verbrachte viel Zeit mit lokalen Nomadenfamilien. In diesem Jahr veranstaltet sie sogar ein Coaching-Retreat um auch anderen Menschen das Land, die Leute und ihre Lebensweisen näher zubringen.</p>
+<p>Ihre Reise starten üblicherweise in der Hauptstadt <a href="https://de.wikipedia.org/wiki/Ulaanbaatar">Ulaanbaatar</a>, doch dann geht es schnell in die unendlich weiten Wüsten, Steppen und Berge. Wir sprechen über Adlerjäger, Jurtenbau, den harten Winter, das nomadische Leben mit den Tieren und vieles mehr.</p>]]></content:encoded>
+      <itunes:summary>Ich sprach mit der Autorin Sonja Piontek über ihr Herzensland, die Mongolei. Sie reiste schon etliche Mal dort hin und verbrachte viel Zeit mit lokalen Nomadenfamilien. In diesem Jahr veranstaltet sie sogar ein Coaching-Retreat um auch anderen Menschen das Land, die Leute und ihre Lebensweisen näher zubringen.
+Ihre Reise starten üblicherweise in der Hauptstadt Ulaanbaatar, doch dann geht es schnell in die unendlich weiten Wüsten, Steppen und Berge. Wir sprechen über Adlerjäger, Jurtenbau, den harten Winter, das nomadische Leben mit den Tieren und vieles mehr.</itunes:summary>
+      <itunes:subtitle>Ich sprach mit der Autorin Sonja Piontek über ihr Herzensland, die Mongolei. Sie reiste schon etliche Mal dort hin und verbrachte viel Zeit mit lokalen Nomadenfamilien. In diesem Jahr veranstaltet sie sogar ein Coaching-Retreat um auch anderen Mensch…</itunes:subtitle>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/mongolei-2.mp3" length="64955123" type="audio/mpeg"/>
+      <itunes:author>Daniel Büchele</itunes:author>
+      <itunes:image href="https://luftpost-podcast.de/cover.png"/>
+      <itunes:duration>54:00</itunes:duration>
+    </item>
+    <item>
+      <title>Jakobsweg mit Baby</title>
+      <description><![CDATA[Für viele ist eine Pilgerreise alleine schon eine große Herausforderung. Tina und ihr Partner haben sich dieser Herausforderung mit ihrem vier Monate alten Sohn gestellt und die 250 Kilometer des portugiesischen Jakobsweg von Porto bis nach Santiago de Compostela zurück gelegt. Auch ohne religiösen Bezug hat der Jakobsweg für die beiden eine große Bedeutung, denn dort haben sie sich vor acht Jahren kennengelernt um nun mit ihrem gemeinsamen Kind zurück zukehren. In der Episode erzählt Tina von den vielen Begegnungen die sie entlang des Weges gemacht haben und macht Eltern Mut auf mit kleinen Kindern auf Reisen zu gehen.]]></description>
+      <link>https://luftpost-podcast.de/jakobsweg</link>
+      <guid isPermaLink="true">https://luftpost-podcast.de/jakobsweg</guid>
+      <pubDate>Sun, 11 Jun 2023 22:26:48 GMT</pubDate>
+      <geo:lat>42.880619</geo:lat>
+      <geo:long>-8.54661</geo:long>
+      <content:encoded><![CDATA[<p>Für viele ist eine Pilgerreise alleine schon eine große Herausforderung. Tina und ihr Partner haben sich dieser Herausforderung mit ihrem vier Monate alten Sohn gestellt und die 250 Kilometer des portugiesischen Jakobsweg von Porto bis nach Santiago de Compostela zurück gelegt. Auch ohne religiösen Bezug hat der Jakobsweg für die beiden eine große Bedeutung, denn dort haben sie sich vor acht Jahren kennengelernt um nun mit ihrem gemeinsamen Kind zurück zukehren. In der Episode erzählt Tina von den vielen Begegnungen die sie entlang des Weges gemacht haben und macht Eltern Mut auf mit kleinen Kindern auf Reisen zu gehen.</p>]]></content:encoded>
+      <itunes:summary>Für viele ist eine Pilgerreise alleine schon eine große Herausforderung. Tina und ihr Partner haben sich dieser Herausforderung mit ihrem vier Monate alten Sohn gestellt und die 250 Kilometer des portugiesischen Jakobsweg von Porto bis nach Santiago de Compostela zurück gelegt. Auch ohne religiösen Bezug hat der Jakobsweg für die beiden eine große Bedeutung, denn dort haben sie sich vor acht Jahren kennengelernt um nun mit ihrem gemeinsamen Kind zurück zukehren. In der Episode erzählt Tina von den vielen Begegnungen die sie entlang des Weges gemacht haben und macht Eltern Mut auf mit kleinen Kindern auf Reisen zu gehen.</itunes:summary>
+      <itunes:subtitle>Für viele ist eine Pilgerreise alleine schon eine große Herausforderung. Tina und ihr Partner haben sich dieser Herausforderung mit ihrem vier Monate alten Sohn gestellt und die 250 Kilometer des portugiesischen Jakobsweg von Porto bis nach Santiago …</itunes:subtitle>
+      <enclosure url="https://luftpostpodcast.s3.eu-west-1.amazonaws.com/jakobsweg.mp3" length="74701991" type="audio/mpeg"/>
+      <itunes:author>Daniel Büchele</itunes:author>
+      <itunes:image href="https://luftpost-podcast.de/cover.png"/>
+      <itunes:duration>1:02:08</itunes:duration>
+    </item>
     <item>
       <title>Türkei</title>
       <description><![CDATA[2013 gab es schonmal eine Episode zu Istanbul und 2014 habe ich auch schonmal mit Moritz gesprochen. Damals über die Malediven. Moritz lebt mittlerweile in Istanbul und wir dachten es wäre ein guter Zeitpunkt um seine Perspektive zu bekommen, denn diese ist auch immer etwas anders als die touristische Wahrnehmung eines Landes. Moritz lebt und arbeitet auf der asiatischen Seite der Metropole, erzählt aber auch über seine Reisen durch die Türkei und versucht mir sogar etwas die Sprache bei zubringen.]]></description>

@@ -5,7 +5,7 @@ guest: '[Martin](https://fernwind.de)'
 countryCode: ru
 latitude: 53.012489
 longitude: 158.651001
-durationSeconds: 3689
+durationSeconds: 4228
 byteSize: 84709212
 mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kamtschatka.mp3
 mimeType: audio/mpeg
