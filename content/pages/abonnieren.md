@@ -15,5 +15,5 @@ Um regelmäßig die neusten Episoden von Luftpost zu bekommen, kannst du den Pod
 In allen anderen Podcast-Apps könnt ihr einfach nach "Luftpost Podcast" suchen oder diese URL abonnieren:
 
 ```
-https://luftpost-podcast.de/feed.xml
+https://www.luftpost-podcast.de/feed.xml
 ```
