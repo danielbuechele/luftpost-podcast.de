@@ -7,7 +7,7 @@ latitude: 38.7223
 longitude: 9.1393
 durationSeconds: 4584
 byteSize: 64306543
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/auswandern-nach-portugal.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/auswandern-nach-portugal.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1209
 ---

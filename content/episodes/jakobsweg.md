@@ -7,7 +7,7 @@ latitude: 42.880619
 longitude: -8.546610
 durationSeconds: 3728
 byteSize: 74701991
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/jakobsweg.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/jakobsweg.mp3
 mimeType: audio/mpeg
 ---
 

@@ -7,7 +7,7 @@ latitude: 32.085300
 longitude: 34.781769
 durationSeconds: 6288
 byteSize: 125498379
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/israel-palaestina.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/israel-palaestina.mp3
 mimeType: audio/mpeg
 ---
 

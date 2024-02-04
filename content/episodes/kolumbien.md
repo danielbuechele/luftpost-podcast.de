@@ -7,7 +7,7 @@ latitude: 4.606880
 longitude: -74.071840
 durationSeconds: 5730
 byteSize: 57440607
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/kolumbien.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/kolumbien.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1123
 ---

@@ -7,7 +7,7 @@ latitude: 39.647100
 longitude: 66.960290
 durationSeconds: 6910
 byteSize: 138354033
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/usbekistan-2.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/usbekistan-2.mp3
 mimeType: audio/mpeg
 ---
 

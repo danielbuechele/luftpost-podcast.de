@@ -7,7 +7,7 @@ latitude: 34.555347
 longitude: 69.207489
 durationSeconds: 4647
 byteSize: 65206611
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/afghanistan.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/afghanistan.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1194
 ---

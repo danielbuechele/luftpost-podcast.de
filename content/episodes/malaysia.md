@@ -7,19 +7,20 @@ latitude: 3.139003
 longitude: 101.686855
 durationSeconds: 7779
 byteSize: 77924464
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/malaysia.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/malaysia.mp3
 mimeType: audio/mpeg
 guid: http://luftpost-podcast.de/?p=987
 ---
 
-Eigentlich dachte ich, dass ich zu Malaysia schon eine Episode hatte, aber dann habe ich gemerkt, dass ich nicht mal genau wusste wo das Land überhaupt liegt. Anna hat auf ihrer vierwöchigen Reise von der thailändischen Grenze im Norden bis nach Singapur, ganz im Süden, einiges über das Land mit seinen drei Ethnien gelernt und viele "new experiences" gemacht. 
-* [Penang](https://de.wikipedia.org/wiki/Penang)
-* [Pulau Langkawi](https://de.wikipedia.org/wiki/Pulau%5FLangkawi)
-* [Ipoh](https://de.wikipedia.org/wiki/Ipoh)
-* [Cameron Highlands](https://de.wikipedia.org/wiki/Cameron%5FHighlands)
-* [Brinchang](https://en.wikipedia.org/wiki/Brinchang)
-* [Taman Negara](https://de.wikipedia.org/wiki/Taman%5FNegara)
-* [Kuala Tahan](https://en.wikipedia.org/wiki/Kuala%5FTahan)
-* [Kuala Lumpur](https://de.wikipedia.org/wiki/Kuala%5FLumpur)
-* [Singapur](https://de.wikipedia.org/wiki/Singapur)
-* [Malakka](https://de.wikipedia.org/wiki/Malakka)
+Eigentlich dachte ich, dass ich zu Malaysia schon eine Episode hatte, aber dann habe ich gemerkt, dass ich nicht mal genau wusste wo das Land überhaupt liegt. Anna hat auf ihrer vierwöchigen Reise von der thailändischen Grenze im Norden bis nach Singapur, ganz im Süden, einiges über das Land mit seinen drei Ethnien gelernt und viele "new experiences" gemacht.
+
+- [Penang](https://de.wikipedia.org/wiki/Penang)
+- [Pulau Langkawi](https://de.wikipedia.org/wiki/Pulau%5FLangkawi)
+- [Ipoh](https://de.wikipedia.org/wiki/Ipoh)
+- [Cameron Highlands](https://de.wikipedia.org/wiki/Cameron%5FHighlands)
+- [Brinchang](https://en.wikipedia.org/wiki/Brinchang)
+- [Taman Negara](https://de.wikipedia.org/wiki/Taman%5FNegara)
+- [Kuala Tahan](https://en.wikipedia.org/wiki/Kuala%5FTahan)
+- [Kuala Lumpur](https://de.wikipedia.org/wiki/Kuala%5FLumpur)
+- [Singapur](https://de.wikipedia.org/wiki/Singapur)
+- [Malakka](https://de.wikipedia.org/wiki/Malakka)

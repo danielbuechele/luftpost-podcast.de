@@ -7,7 +7,7 @@ latitude: 37.566535
 longitude: 126.9779692
 durationSeconds: 6163
 byteSize: 86198134
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/suedkorea.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/suedkorea.mp3
 mimeType: audio/mpeg
 guid: http://web29.services.erhard.biz/?p=1
 ---

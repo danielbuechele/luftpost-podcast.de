@@ -7,7 +7,7 @@ latitude: 39.9042
 longitude: 116.4074
 durationSeconds: 8038
 byteSize: 112897284
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/china.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/china.mp3
 mimeType: audio/mp4
 guid: http://luftpost-podcast.de/?p=381
 ---

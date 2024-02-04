@@ -4,7 +4,7 @@ publishedAt: Sun, 24 Sep 2023 15:59:57 +0000
 guest: Gig
 durationSeconds: 6686
 byteSize: 133870379
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/radreisen.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/radreisen.mp3
 mimeType: audio/mpeg
 ---
 

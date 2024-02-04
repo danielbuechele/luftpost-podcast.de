@@ -7,7 +7,7 @@ latitude: 13.692940
 longitude: -89.218193
 durationSeconds: 4186
 byteSize: 83861167
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/el-salvador.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/el-salvador.mp3
 mimeType: audio/mpeg
 guid: https://luftpost-podcast.de/?p=1168
 ---

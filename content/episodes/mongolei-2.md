@@ -7,7 +7,7 @@ latitude: 46.860191
 longitude: 100.784735
 durationSeconds: 3240
 byteSize: 64955123
-mediaUrl: https://luftpostpodcast.s3.eu-west-1.amazonaws.com/mongolei-2.mp3
+mediaUrl: https://f002.backblazeb2.com/file/luftpostpodcast/mongolei-2.mp3
 mimeType: audio/mpeg
 ---
 
