@@ -20,7 +20,10 @@ export default function Player(props: {episode: Episode}) {
         />
       </div>
       <AudioPlayer
-        defaultCurrentTime="0:00"
+        defaultCurrentTime={
+          (props.episode.durationSeconds >= 60 * 60 ? '0:' : '') +
+          secondsToTime(0)
+        }
         defaultDuration={secondsToTime(props.episode.durationSeconds)}
         src={props.episode.mediaUrl}
         preload="none"
