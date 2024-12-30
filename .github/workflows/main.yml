@@ -22,7 +22,7 @@ jobs:
         run: yarn
       - name: build RSS feed
         run: |
-          yarn contentlayer build
+          yarn contentlayer2 build
           yarn rss
           rm -rf scripts
       - name: deploy
