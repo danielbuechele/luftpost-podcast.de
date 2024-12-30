@@ -80,7 +80,10 @@ import {decodeHTML} from 'entities';
     feed.item({
       title: i.title.replaceAll('&', '&amp;'),
       description: summary(
-        i.body.html.replaceAll('href="/', 'href="https://www.luftpost-podcast.de/'),
+        i.body.html.replaceAll(
+          'href="/',
+          'href="https://www.luftpost-podcast.de/',
+        ),
         100000,
       ),
       url: `https://www.luftpost-podcast.de/${i.slug}`, // link to the item

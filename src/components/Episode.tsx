@@ -8,7 +8,7 @@ import Flag from './Flag';
 
 type Props = {episode: Episode; truncate?: boolean};
 
-export default function Episode(props: Props) {
+export default function EpisodePage(props: Props) {
   return (
     <article className={styles.episode}>
       <div className={styles.title}>

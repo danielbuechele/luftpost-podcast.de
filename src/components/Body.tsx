@@ -1,5 +1,5 @@
 import {Markdown} from 'contentlayer/core';
-import {ReactMarkdown} from 'react-markdown/lib/react-markdown';
+import ReactMarkdown from 'react-markdown';
 import styles from '@/styles/Body.module.css';
 
 export default function Body({
