@@ -1,4 +1,4 @@
-import {Markdown} from 'contentlayer/core';
+import {Markdown} from 'contentlayer2/core';
 import ReactMarkdown from 'react-markdown';
 import styles from '@/styles/Body.module.css';
 
