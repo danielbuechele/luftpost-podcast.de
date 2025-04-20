@@ -1,7 +1,7 @@
 ---
 title: Auswandern nach Quebec
 publishedAt: Mon, 21 Apr 2025 02:08:09 +0000
-guest: Johannes
+guest: '[Amelie](https://www.instagram.com/amelie.jpe/)'
 countryCode: ca
 latitude: 45.501690
 longitude: -73.567253
